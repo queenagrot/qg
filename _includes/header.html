@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/slider/ideal-image-slider.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/slider/themes/default.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/resets.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/grid.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    {% include slider_styles.html %}
+  </head>
+
+<body class="{{ page.class }}">
+
+  <header class="nav-down">
+
+    <ul class='intro'>
+      <li><h1>Pamela Rosel</h1></li>
+      <li><h1><span></span></h1></li>
+    </ul>
+
+    <nav>
+      <a href="http://localhost:4000/" class="navfolio">Folio</a>
+      <a href="http://localhost:4000/icandesigniswear/" class="navabout"><span class="mob_hide">How can I help you?</span> <span class="mob_show">Contact</span></a>
+    </nav>
+
+  </header>

@@ -1,0 +1,138 @@
+body { font-family: "Courier Prime", monospace; font-size: 14px; }
+
+body.folio { background: #ffffff; color: #000000; margin-top: 50%; }
+
+body.about { color: #ffffff; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+
+p { line-height: 1.25em; }
+
+a { color: #000000; text-decoration: underline; }
+
+body.about a { color: #ffffff; }
+
+h2 { font-family: "DM Mono", monospace; font-weight: 300; text-transform: uppercase; }
+
+.meta { font-family: 'DM Mono', monospace; text-transform: uppercase; font-size: .72em; text-indent: 10px; }
+
+nav { top: 0; right: 0; width: 25%; padding: 28px 20px; position: absolute; }
+
+nav a { text-decoration: none; padding-right: 10px; }
+
+nav a:hover { text-decoration: underline; }
+
+.folio .navfolio, .about .navabout { text-decoration: underline; }
+
+.intro li { width: 25%; padding: 28px 20px; display: inline-block; }
+
+h1 span::before { content: ''; animation: profile 9s infinite; position: relative; }
+
+@keyframes profile { 0% { content: 'Freelance Designer';
+    top: 0;
+    opacity: 1; }
+  30% { content: 'Freelance Designer';
+    top: 0;
+    opacity: 1; }
+  35% { content: 'Freelance Designer';
+    top: 0;
+    opacity: 0; }
+  39% { content: 'Freelance Designer';
+    top: 0;
+    opacity: 0; }
+  40% { content: 'Brisbane, Meanjin';
+    top: 1em;
+    opacity: 0; }
+  50% { content: 'Brisbane, Meanjin';
+    top: 0;
+    opacity: 1; }
+  80% { content: 'Brisbane, Meanjin';
+    top: 0;
+    opacity: 1; }
+  85% { content: 'Brisbane, Meanjin';
+    top: 0;
+    opacity: 0; }
+  90% { content: 'Freelance Designer';
+    top: 1em;
+    opacity: 0; }
+  100% { content: 'Freelance Designer';
+    top: 0;
+    opacity: 1; } }
+
+header { background: #ffffff; height: 70px; position: fixed; top: 0; transition: top 0.4s ease-in-out; width: 100%; z-index: 5; }
+
+body.about header { background: none; }
+
+.nav-up { top: -80px; }
+
+.fadeup { opacity: 0; transition-property: opacity; transition-duration: .4s; transition-delay: .4s; transition-timing-function: linear; }
+
+.in-view { opacity: 1; }
+
+#blob { position: fixed; width: 696px; height: 694px; animation-name: scale-in-center; animation-duration: 12s; }
+
+@-webkit-keyframes scale-in-center { 0% { -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  20% { opacity: 0; }
+  100% { -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes scale-in-center { 0% { -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  20% { opacity: 0; }
+  100% { -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+.emoji { background: none; text-decoration: none; position: fixed; font-size: 2vw; animation: fadeIn 0.3s ease-in; }
+
+.emojiactive { background: none; text-decoration: none; position: fixed; font-size: 2vw; animation: fadeIn 0.3s ease-in; display: block; }
+
+.fadeOut { animation: fadeOut 0.3s ease-in; }
+
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@keyframes fadeOut { from { opacity: 1; }
+  to { opacity: 0; } }
+
+#all { margin: 160px auto; width: 100px; height: 100px; -webkit-animation: grow 4s; -webkit-animation-delay: 0.5s; animation-fill-mode: forwards; }
+
+#div1 { position: relative; width: 100%; height: 450px; margin: -300px auto 0; }
+
+#div1 span { position: absolute; top: 0px; left: 0px; font-family: "DM Mono", monospace; font-weight: 100; text-transform: uppercase; color: #FFF; }
+
+.div2 { display: none; }
+
+.script { font-family: Microsoft YaHei; color: #fff; font-size: 40px; display: block; position: relative; }
+
+.java { font-family: Microsoft YaHei; color: #fff; background-color: black; font-size: 40px; display: block; position: relative; }
+
+.java:before { content: ""; display: block; position: absolute; left: 85px; width: 20px; height: 100%; background-color: red; -webkit-animation-delay: 2s; -webkit-animation: grow 4s; -webkit-animation-delay: 0.5s; animation-fill-mode: forwards; }
+
+@-webkit-keyframes grow { from { width: 0px; }
+  to { width: 480px; } }
+
+@keyframes stripe-slide { 0% { background-position: 0% 0; }
+  100% { background-position: 100% 0; } }
+
+#btn_replace { position: absolute; left: 15px; bottom: 0px; }
+
+#btn_email { position: absolute; right: 15px; bottom: 0; }
+
+.btn { overflow: visible; margin: 0; padding: 0; border: 0; background: transparent; line-height: normal; cursor: pointer; -moz-user-select: text; display: block; font-family: "DM Mono", monospace; text-decoration: none; text-transform: uppercase; padding: 16px 36px 22px; background-color: none; color: white; border: 2px solid white; border-radius: 6px; margin-bottom: 16px; transition: all .5s ease; z-index: 1000; }
+
+.btn:-moz-focus-inner { padding: 0; border: 0; }
+
+.btn--stripe { overflow: hidden; position: relative; }
+
+.btn--stripe:after { content: ''; display: block; height: 7px; width: 100%; background-image: repeating-linear-gradient(45deg, white, white 1px, transparent 2px, transparent 5px); -webkit-backface-visibility: hidden; backface-visibility: hidden; border-top: 1px solid white; position: absolute; left: 0; bottom: 0; background-size: 7px 7px; }
+
+.btn--stripe:hover { background-color: white; color: black; border-color: black; }
+
+.btn--stripe:hover:after { background-image: repeating-linear-gradient(45deg, black, black 2px, transparent 2px, transparent 5px); border-top: 1px solid black; animation: stripe-slide 12s infinite linear forwards; }
+
+@media (max-width: 600px) { header { height: 85px; } nav { width: 50%; text-align: right; } nav a { padding-right: 10px; display: inline-block; } #blob { width: 300px; height: 300px; } #all { position: fixed; } #div1 { position: fixed; } }
+
+/*# sourceMappingURL=main.css.map */

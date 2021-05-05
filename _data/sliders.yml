@@ -1,0 +1,165 @@
+# auki
+- selector: slider_auki
+  captions: false
+  images:
+    - src: /assets/images/auki/auki_bottles.jpg
+      alt: beauty oil bottle packaging design
+    - data-src: /assets/images/auki/auki_oilface.jpg
+      alt: bottle applicator
+    - data-src: /assets/images/auki/auki_capsules.jpg
+      alt: beauty oil capsules
+      data-caption: '#caption-3'
+    - data-src: /assets/images/auki/auki_logowhite.jpg
+      alt: auki logo
+    - data-src: /assets/images/auki/auki_laptop.gif
+      alt: website design shop
+  settings:
+    interval: "10000000000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# bark
+- selector: slider_bark
+  captions: false
+  images:
+    - src: /assets/images/bark/bark_landing.gif
+    - data-src: /assets/images/bark/bark_landing.jpg
+    - data-src: /assets/images/bark/bark_menu.jpg
+    - data-src: /assets/images/bark/bark_redrock.gif
+    - data-src: /assets/images/bark/bark_private.gif
+  settings:
+    interval: "10000000000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# bessa
+- selector: slider_bessa
+  captions: false
+  images:
+    - src: /assets/images/bessa/bessa_neon.png
+    - data-src: /assets/images/bessa/bessa_truck.jpg
+    - data-src: /assets/images/bessa/bessa_cup.png
+  settings:
+    interval: "10000000000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# coyo
+- selector: slider_coyo
+  captions: false
+  images:
+    - src: /assets/images/coyo/coyo_home.jpg
+    - data-src: /assets/images/coyo/coyo_home2.jpg
+    - data-src: /assets/images/coyo/coyo_home_bottom.jpg
+    - data-src: /assets/images/coyo/coyo_products.jpg
+    - data-src: /assets/images/coyo/coyo_vanillabean.jpg
+    - data-src: /assets/images/coyo/coyo_recipes.jpg
+    - data-src: /assets/images/coyo/coyo_cocktail.jpg
+  settings:
+    interval: "5000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# greenhillswagyu
+- selector: slider_gw
+  captions: false
+  images:
+    - src: /assets/images/greenhillswagyu/gw_tradehandout.jpg
+    - data-src: /assets/images/greenhillswagyu/gw_dlfront.jpg
+    - data-src: /assets/images/greenhillswagyu/gw_signage.jpg
+    - data-src: /assets/images/greenhillswagyu/gw_logo2.jpg
+    # - data-src: /assets/images/greenhillswagyu/gw_print.jpg
+    # - data-src: /assets/images/greenhillswagyu/gw_meatticket.jpg
+  settings:
+    interval: "4000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# heirloom
+- selector: slider_heirloom
+  captions: false
+  images:
+    - src: /assets/images/heirloom/heirloom_bags.jpg
+    - data-src: /assets/images/heirloom/heirloom_bottles.jpg
+    - data-src: /assets/images/heirloom/heirloom_logo1.gif
+    - data-src: /assets/images/heirloom/heirloom_logo2.gif
+  settings:
+    interval: "10000000000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# instant specialty
+- selector: slider_instantspecialty
+  captions: false
+  images:
+    - src: /assets/images/instantspecialty/sachetsphoto.jpg
+  settings:
+    interval: "10000000000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# jafflejunkies
+- selector: slider_jafflejunkies
+  captions: false
+  images:
+    - src: /assets/images/jafflejunkies/jj_logo.gif
+  settings:
+    height: "'auto'"
+
+# pigcine
+- selector: slider_pigcine
+  captions: false
+  images:
+    - src: /assets/images/pigcine/pigcine_landing.jpg
+    - data-src: /assets/images/pigcine/pigcine_screeningslist.gif
+    - data-src: /assets/images/pigcine/pigcine_openingnight.jpg
+    - data-src: /assets/images/pigcine/pigcine_susanpitt.jpg
+    - data-src: /assets/images/pigcine/pigcine_fbteasers.jpg
+    - data-src: /assets/images/pigcine/pigcine_bag3.jpg
+    - data-src: /assets/images/pigcine/pigcine_edm.gif
+    - data-src: /assets/images/pigcine/pigcine_about.gif
+    - data-src: /assets/images/pigcine/pigcine_metro.jpg
+    - data-src: /assets/images/pigcine/pigcine_speech.jpg
+
+
+    # - data-src: /assets/images/pigcine/pigcine_slides.jpg
+    # - data-src: /assets/images/pigcine/pigcine_speech.jpg
+  settings:
+    interval: "10000000000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# sound summit
+- selector: slider_soundsummit
+  captions: false
+  images:
+    - src: /assets/images/soundsummit/SScolors.jpg
+    - data-src: /assets/images/soundsummit/SSposters.jpg
+  settings:
+    interval: "10000000000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# squeezo
+- selector: slider_squeezo
+  captions: false
+  images:
+    - src: /assets/images/squeezo/squeezo_branding.gif
+  settings:
+    height: "'auto'"
+
+# uap
+- selector: slider_uap
+  captions: false
+  images:
+    - src: /assets/images/uap/uap_landing.jpg
+    - data-src: /assets/images/uap/uap_loadscreen1.gif
+    - data-src: /assets/images/uap/uap_single.jpg
+    - data-src: /assets/images/uap/uap_ipadfilter.gif
+    - data-src: /assets/images/uap/uap_quotereq2.gif
+    # - data-src: /assets/images/uap/uap_mobbilingual.jpg
+    - data-src: /assets/images/uap/uap_aboutbilingual.gif
+  settings:
+    interval: "8000"
+    height: "'auto'"
+    effect: "'fade'"

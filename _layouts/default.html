@@ -1,0 +1,15 @@
+{% include header.html %}
+
+{{ content }}
+
+
+{% for post in site.posts %}
+    {{ post.content }}
+{% endfor %}
+
+<!-- <section class="float_left clear">
+<button class="btn btn--stripe">
+<span>about</span>
+</button>
+</section> -->
+{% include footer.html %}

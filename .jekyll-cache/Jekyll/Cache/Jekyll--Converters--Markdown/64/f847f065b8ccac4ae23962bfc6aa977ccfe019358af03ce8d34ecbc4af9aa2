@@ -1,0 +1,30 @@
+I"Ï<div id="all">
+  <div class="java"> </div>
+  <div class="script">Things I can do</div>
+</div>
+
+<div id="div1">
+
+  <span>make your shit<br />look good and<br />work better</span>
+  <span>build a fully<br />custom wordpress<br />website</span>
+  <span>help you sell <br />your shit online</span>
+  <span>transform your ideas<br />into a brand that's<br />authentic to you</span>
+  <span>posters, mags,<br />book covers...</span>
+  <span>discounts<br />for BIPOC</span>
+  <span>signage, marketing<br />materials, etc.</span>
+  <!-- <span>what about an<br>experimental, interactive<br>digital collaboration?</span> -->
+  <span>branded templates to<br />use to your own devices</span>
+  <!-- <span>front-end development</span>
+  <span>human-centred design</span>
+  <span>contract<br>design work</span>
+  <span>foster your community</span> -->
+  <!-- <span>authenticity & kindness<br>as a priority</span>
+  <span>i specialise in<br>branding & digital</span>
+  <span>link to my cv</span>
+  <span>link to my side hustle (lamps)</span> -->
+<!--
+<p>i'ma flexible all-rounder creative interested in designing meaningful experiences for clients from all walks of life.</p> -->
+</div>
+
+<p><button class="btn btn--stripe">Email me.</button></p>
+:ET

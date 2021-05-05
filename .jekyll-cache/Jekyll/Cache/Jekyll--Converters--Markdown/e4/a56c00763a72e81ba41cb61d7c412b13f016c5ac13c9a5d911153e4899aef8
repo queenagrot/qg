@@ -1,0 +1,29 @@
+I"x<div id="all">
+  <div class="java"> </div>
+  <div class="script">Things I can do</div>
+</div>
+
+<div id="div1">
+  <span>make your shit<br />look good and<br />work better</span>
+  <span>build a fully<br />custom wordpress<br />website</span>
+  <span>help you sell <br />your shit online</span>
+  <span>transform your ideas<br />into a brand that's<br />authentic to you</span>
+  <span>posters, mags,<br />book covers...</span>
+  <span>discounts<br />for BIPOC</span>
+  <span>signage, marketing<br />materials, etc.</span>
+  <span>branded templates to<br />use to your own devices</span>
+</div>
+
+<div id="div2">
+<span>pamela one</span>
+<span>ang ganda ng katawan</span>
+<span>pamela two</span>
+<span>her body smells like a shoe</span>
+</div>
+
+<p><button class="btn btn--stripe">
+<span id="btn_replace">About me</span>
+</button></p>
+
+<p><button class="btn btn--stripe">Email me</button></p>
+:ET

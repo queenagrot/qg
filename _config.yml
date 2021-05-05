@@ -1,0 +1,5 @@
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "2021-folio-changeVisibility" # the subpath of your site, e.g. /blog
+title: "Pamela Rosel" # the name of your site, e.g. ACME Corp.
+sass_dir: _sass
+description: Pamela Rosel is a freelance designer based in Brisbane, Meanjin, interested in the intersection of art and design, creating meaningful experiences across branding and digital.
