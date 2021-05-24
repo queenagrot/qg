@@ -128,14 +128,6 @@
     height: "'auto'"
     effect: "'fade'"
 
-# squeezo
-- selector: slider_squeezo
-  captions: false
-  images:
-    - src: /assets/images/squeezo/squeezo_branding.gif
-  settings:
-    height: "'auto'"
-
 # uap
 - selector: slider_uap
   captions: false
