@@ -500,9 +500,12 @@ $(document).ready(function() {
 
     console.log("Hello homepage!");
 
-   }
 
 
+
+
+
+}
 });
 // end of document ready function executing about vs homepage scripts
 
