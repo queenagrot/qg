@@ -544,8 +544,8 @@ var IdealImageSlider = (function() {
 			// Touch Navigation
 			if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
 				this.settings.effect = 'slide';
-				previousNav.style.display = 'none';
-				nextNav.style.display = 'none';
+				// previousNav.style.display = 'none';
+				// nextNav.style.display = 'none';
 				_addClass(sliderEl, this.settings.classes.touchEnabled);
 
 				_addEvent(sliderEl, 'touchstart', _touch.start.bind(this), false);

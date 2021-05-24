@@ -122,3 +122,15 @@
 .iis-caption .iis-caption-content a:active {
 	color: #fff;
 }
+
+@media (max-width: 600px) {
+
+	.iis-previous-nav, .iis-next-nav {
+    opacity: .5;
+    background-size: 28px 28px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+	}
+
+}
