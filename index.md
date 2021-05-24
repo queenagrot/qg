@@ -14,6 +14,5 @@ image_sliders:
   - slider_jafflejunkies
   - slider_pigcine
   - slider_soundsummit
-  - slider_squeezo
 image_sliders_load_all: true
 ---
