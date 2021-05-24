@@ -85,7 +85,7 @@ body.about header { background: none; }
     transform: scale(1);
     opacity: 1; } }
 
-.emoji { background: none; text-decoration: none; position: fixed; font-size: 2vw; animation: fadeIn 0.3s ease-in; }
+.emoji { background: none; text-decoration: none; position: fixed; font-size: 22px; animation: fadeIn 0.3s ease-in; }
 
 .emojiactive { background: none; text-decoration: none; position: fixed; font-size: 2vw; animation: fadeIn 0.3s ease-in; display: block; }
 
@@ -117,7 +117,9 @@ body.about header { background: none; }
 @keyframes stripe-slide { 0% { background-position: 0% 0; }
   100% { background-position: 100% 0; } }
 
-#btn_replace { position: absolute; left: 15px; bottom: 0px; }
+#btn_aboutme { position: absolute; left: 15px; bottom: 0px; }
+
+#btn_back { position: absolute; left: 15px; bottom: 0px; }
 
 #btn_email { position: absolute; right: 15px; bottom: 0; }
 

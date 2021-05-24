@@ -187,7 +187,7 @@ body.about header {
    background: none;
    text-decoration: none;
    position: fixed;
-   font-size: 2vw;
+   font-size: 22px;
    animation: fadeIn 0.3s ease-in;
    // opacity: 0;
    // display: none;
@@ -318,7 +318,13 @@ display: none;
 
 //BUTTONS
 
-#btn_replace {
+#btn_aboutme {
+  position: absolute;
+  left: 15px;
+  bottom: 0px;
+}
+
+#btn_back {
   position: absolute;
   left: 15px;
   bottom: 0px;

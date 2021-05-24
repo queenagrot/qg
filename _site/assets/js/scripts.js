@@ -84,10 +84,10 @@ var change = function changeVisibility() {
 }
 setTimeout(change, 4000);
 
-$('#btn_replace').click(function () {
+$('#btn_holder').click(function () {
     $('#div1').find('span').toggleClass('div2');
-    $(this).find('span').toggleClass('div2');
     $('#blob').toggleClass('hidden');
+    $(this).find('button').toggleClass('nodisplay');
 });
 
 var radius = 300;
@@ -298,15 +298,7 @@ function sineCosine(a, b, c) {
   cc = Math.cos(c * dtr);
 }
 
-//EMOJI
-
-// const MINIMUM_COLOR_R = 60;
-// const MINIMUM_COLOR_G = 15;
-// const MINIMUM_COLOR_B = 90;
-//
-// const MAXIMUM_COLOR_R = 180;
-// const MAXIMUM_COLOR_G = 15;
-// const MAXIMUM_COLOR_B = 30;
+//EMOJISTREAM
 
 const MINIMUM_COLOR_R = 20;
 const MINIMUM_COLOR_G = 20;
@@ -353,29 +345,20 @@ function generateRGB(isObj) {
   return isObj ? colors : `rgb(${colors.r},${colors.g},${colors.b})`;
 };
 
+//EMOJISTREAM FUNCTIONS ON/OFF
 
-// $('#btn_replace').click(function () {
-//   pamelasfunction().toggle();
-// });
+$('#btn_aboutme').click(function () {
+  emojistream();
+});
 
+$('#btn_back').click(function () {
+  noemojistream();
+});
 
-//
-// $('#btn_replace').toggle(
-//     pamelasfunction();
-//     derpfunction();
-// });
-
-// jQuery(document).ready(function(){
-//     pamelasfunction();
-// });
-
-// $('#btn_replace').click(function () {
-
-
-// function pamelasfunction() {
+function emojistream() {
 
 function renderEmoji() {
-  let allEmojis = ["🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️","🕯","💅🏽","🌚","⚖️", "🐡", "👁","🔮", "👙", "👡","🏄🏽‍♀️", "🐊","🐸","🇵🇭","🌞"];
+  let allEmojis = ["🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️", "🪐","🐌","🧘🏽‍♀️","🕯","💅🏽","⚖️", "🐡", "👁","🔮", "👙", "👡","🏄🏽‍♀️", "🐊","🐸","🇵🇭","🌞"];
   let randomNum = getRandomInt(0, allEmojis.length - 1);
   let emojiCon = document.createElement('p');
   emojiCon.classList.add("emoji");
@@ -388,9 +371,14 @@ function renderEmoji() {
     emojiCon.classList.add("fadeOut");
     setTimeout(() => document.body.removeChild(emojiCon), 300);
   }, 2000);
+
+  $('#btn_back').click(function () {
+    emojiCon.remove();
+  });
+
 }
 
-(function() {
+(function mousetrail() {
   let mousePos;
 
   document.onmousemove = handleMouseMove;
@@ -452,9 +440,108 @@ function renderEmoji() {
   }
 })();
 
-// }
+}
+// emojistream end
 
-// }); click btn_replace
+function noemojistream() {
+
+(function mousetrail() {
+  let mousePos;
+
+  document.onmousemove = handleMouseMove;
+  setInterval(getMousePosition, 1000); // setInterval repeats every X ms
+
+  function handleMouseMove(event) {
+    let dot, eventDoc, doc, body, pageX, pageY;
+
+    event = event || window.event; // IE-ism
+
+    // If pageX/Y aren't available and clientX/Y are,
+    // calculate pageX/Y - logic taken from jQuery.
+    // (This is to support old IE)
+    if (event.pageX == null && event.clientX != null) {
+      eventDoc = (event.target && event.target.ownerDocument) || document;
+      doc = eventDoc.documentElement;
+      body = eventDoc.body;
+
+      event.pageX = event.clientX +
+        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+        (doc && doc.clientLeft || body && body.clientLeft || 0);
+      event.pageY = event.clientY +
+        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+        (doc && doc.clientTop || body && body.clientTop || 0);
+    }
+
+    mousePos = {
+      x: event.pageX,
+      y: event.pageY
+    };
+
+    setSmoothColorChange(mousePos.x, bcg);
+    document.body.style.background = bcgName;
+  }
+
+  function getMousePosition() {
+    let pos = mousePos;
+    if (!pos) {
+      // We haven't seen any movement yet
+    } else {
+      // Use pos.x and pos.y
+    }
+  }
+})();
+
+}
+// noemojistream end
+
+
+(function mousetrail() {
+  let mousePos;
+
+  document.onmousemove = handleMouseMove;
+  setInterval(getMousePosition, 1000); // setInterval repeats every X ms
+
+  function handleMouseMove(event) {
+    let dot, eventDoc, doc, body, pageX, pageY;
+
+    event = event || window.event; // IE-ism
+
+    // If pageX/Y aren't available and clientX/Y are,
+    // calculate pageX/Y - logic taken from jQuery.
+    // (This is to support old IE)
+    if (event.pageX == null && event.clientX != null) {
+      eventDoc = (event.target && event.target.ownerDocument) || document;
+      doc = eventDoc.documentElement;
+      body = eventDoc.body;
+
+      event.pageX = event.clientX +
+        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+        (doc && doc.clientLeft || body && body.clientLeft || 0);
+      event.pageY = event.clientY +
+        (doc && doc.scrollTop || body && body.scrollTop || 0) -
+        (doc && doc.clientTop || body && body.clientTop || 0);
+    }
+
+    mousePos = {
+      x: event.pageX,
+      y: event.pageY
+    };
+
+    setSmoothColorChange(mousePos.x, bcg);
+    document.body.style.background = bcgName;
+  }
+
+  function getMousePosition() {
+    let pos = mousePos;
+    if (!pos) {
+      // We haven't seen any movement yet
+    } else {
+      // Use pos.x and pos.y
+    }
+  }
+})();
+
+
 
 // TODO:
 // 1. Set min & high color pickers.

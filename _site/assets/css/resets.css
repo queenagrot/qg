@@ -18,6 +18,6 @@ body, html { height: 100%; width: 100%; }
 
 .show { display: block; }
 
-.nodisplay { display: none; }
+.nodisplay { display: none !important; }
 
 /*# sourceMappingURL=resets.css.map */
