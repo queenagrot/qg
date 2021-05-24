@@ -303,13 +303,13 @@ $(document).ready(function() {
 
        //EMOJISTREAM
 
-       const MINIMUM_COLOR_R = 20;
-       const MINIMUM_COLOR_G = 20;
-       const MINIMUM_COLOR_B = 20;
+       const MINIMUM_COLOR_R = 30;
+       const MINIMUM_COLOR_G = 30;
+       const MINIMUM_COLOR_B = 30;
 
-       const MAXIMUM_COLOR_R = 150;
-       const MAXIMUM_COLOR_G = 120;
-       const MAXIMUM_COLOR_B = 120;
+       const MAXIMUM_COLOR_R = 140;
+       const MAXIMUM_COLOR_G = 100;
+       const MAXIMUM_COLOR_B = 100;
 
        const ICONS_DISTANCE = 50;
 
@@ -347,6 +347,52 @@ $(document).ready(function() {
          }
          return isObj ? colors : `rgb(${colors.r},${colors.g},${colors.b})`;
        };
+
+       (function mousetrail() {
+         let mousePos;
+
+         document.onmousemove = handleMouseMove;
+         setInterval(getMousePosition, 1000); // setInterval repeats every X ms
+
+         function handleMouseMove(event) {
+           let dot, eventDoc, doc, body, pageX, pageY;
+
+           event = event || window.event; // IE-ism
+
+           // If pageX/Y aren't available and clientX/Y are,
+           // calculate pageX/Y - logic taken from jQuery.
+           // (This is to support old IE)
+           if (event.pageX == null && event.clientX != null) {
+             eventDoc = (event.target && event.target.ownerDocument) || document;
+             doc = eventDoc.documentElement;
+             body = eventDoc.body;
+
+             event.pageX = event.clientX +
+               (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
+               (doc && doc.clientLeft || body && body.clientLeft || 0);
+             event.pageY = event.clientY +
+               (doc && doc.scrollTop || body && body.scrollTop || 0) -
+               (doc && doc.clientTop || body && body.clientTop || 0);
+           }
+
+           mousePos = {
+             x: event.pageX,
+             y: event.pageY
+           };
+
+           setSmoothColorChange(mousePos.x, bcg);
+           document.body.style.background = bcgName;
+         }
+
+         function getMousePosition() {
+           let pos = mousePos;
+           if (!pos) {
+             // We haven't seen any movement yet
+           } else {
+             // Use pos.x and pos.y
+           }
+         }
+       })();
 
        //EMOJISTREAM FUNCTIONS ON/OFF
 
