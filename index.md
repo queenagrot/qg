@@ -14,5 +14,4 @@ image_sliders:
   - sliderjafflejunkies
   - sliderpigcine
   - slidersoundsummit
-image_sliders_load_all: true
 ---
