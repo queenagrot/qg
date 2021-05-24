@@ -24,7 +24,7 @@ nav a:hover { text-decoration: underline; }
 
 .intro li { width: 25%; padding: 28px 20px; display: inline-block; }
 
-h1 span::before { content: ''; animation: profile 9s infinite; position: relative; }
+h1 span::before { content: ''; animation: profile 9s infinite; position: relative; display: block; }
 
 @keyframes profile { 0% { content: 'Freelance Designer';
     top: 0;
@@ -99,7 +99,7 @@ body.about header { background: none; }
 
 #all { margin: 160px auto; width: 100px; height: 100px; -webkit-animation: grow 4s; -webkit-animation-delay: 0.5s; animation-fill-mode: forwards; }
 
-#div1 { position: relative; width: 100%; height: 450px; margin: -300px auto 0; }
+#div1 { visibility: hidden; position: relative; width: 100%; height: 450px; margin: -300px auto 0; }
 
 #div1 span { position: absolute; top: 0px; left: 0px; font-family: "DM Mono", monospace; font-weight: 100; text-transform: uppercase; color: #FFF; }
 
