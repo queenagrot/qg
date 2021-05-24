@@ -73,7 +73,7 @@ function hasScrolled() {
 }
 
 $(document).ready(function() {
-     if (window.location.pathname == '/icandesigniswear/') {
+     if (window.location.pathname == '/icandesigniswear') {
 
        // ANIMATED WORD CLOUD
 
