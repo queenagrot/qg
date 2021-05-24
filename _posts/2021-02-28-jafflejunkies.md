@@ -3,14 +3,14 @@ layout: post
 permalink: /jafflejunkies/
 title: "jaffle junkies"
 image_sliders:
-  - slider_jafflejunkies
+  - sliderjafflejunkies
 meta: ' Logotype, Illustration'
 ---
 <section class="section fadeup">
 
 <div class="col-3-8 float_left grid-mar">
   <div id="slideshow">
-  {% include slider.html selector="slider_jafflejunkies" %}
+  {% include slider.html selector="sliderjafflejunkies" %}
   </div>
 
   <div class="txt-centre">

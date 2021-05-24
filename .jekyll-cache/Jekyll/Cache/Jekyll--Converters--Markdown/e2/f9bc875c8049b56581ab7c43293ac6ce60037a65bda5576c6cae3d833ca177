@@ -1,21 +1,12 @@
----
-layout: post
-permalink: /bark/
-title: "Bark Architects"
-image_sliders:
-  - sliderbark
-meta: ' ROLE: Site Design (UI, UX), Branding&mdash; Developer: David Muirhead&mdash; Year: 2017&mdash; CMS: Wordpress'
-website: 'barkdesign.com.au'
----
-<section class="section fadeup float_left">
+I"Ž<section class="section fadeup float_left">
 
 <div class="col-3-8 float_left">
   <div class="txt-left">
-  <h2>{{ page.title }}</h2>
-  <br>
+  <h2>Bark Architects</h2>
+  <br />
   <p>The Bark rebrand embodies their responsive work to the Noosa landscape and surrounds. Their website was built to self-manage a vast folio of architectural projects, separating private residential work from their public work, all documented in the finest detail. Each project tells a story, incorporating initial sketches, plot stats and blueprints with the final work beautifully realised and photographed, making mention to any awards or media coverage for that project along the way. A testament to the developer, this website is a powerhouse.
 
-    <span class="meta">{{ page.meta }}&mdash; Website: <a href="https://{{ page.website }}">{{ page.website }}</a>
+    <span class="meta"> ROLE: Site Design (UI, UX), Branding&mdash; Developer: David Muirhead&mdash; Year: 2017&mdash; CMS: Wordpress&mdash; Website: <a href="https://barkdesign.com.au">barkdesign.com.au</a>
     </span>
   </p>
   </div>
@@ -23,8 +14,12 @@ website: 'barkdesign.com.au'
 
 <div class="col-5-8 float_left">
   <div id="slideshow">
-  {% include slider.html selector="sliderbark" %}
+  <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div>
+  </div>
   </div>
 </div>
 
 </section>
+:ET

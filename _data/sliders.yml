@@ -1,5 +1,5 @@
 # auki
-- selector: slider_auki
+- selector: sliderauki
   captions: false
   images:
     - src: /assets/images/auki/auki_bottles.jpg
@@ -13,7 +13,7 @@
     effect: "'fade'"
 
 # bark
-- selector: slider_bark
+- selector: sliderbark
   captions: false
   images:
     - src: /assets/images/bark/bark_landing.gif
@@ -27,7 +27,7 @@
     effect: "'fade'"
 
 # bessa
-- selector: slider_bessa
+- selector: sliderbessa
   captions: false
   images:
     - src: /assets/images/bessa/bessa_neon.png
@@ -39,7 +39,7 @@
     effect: "'fade'"
 
 # coyo
-- selector: slider_coyo
+- selector: slidercoyo
   captions: false
   images:
     - src: /assets/images/coyo/coyo_home.jpg
@@ -55,7 +55,7 @@
     effect: "'fade'"
 
 # greenhillswagyu
-- selector: slider_gw
+- selector: slidergw
   captions: false
   images:
     - src: /assets/images/greenhillswagyu/gw_tradehandout.jpg
@@ -68,7 +68,7 @@
     effect: "'fade'"
 
 # heirloom
-- selector: slider_heirloom
+- selector: sliderheirloom
   captions: false
   images:
     - src: /assets/images/heirloom/heirloom_bags.jpg
@@ -81,7 +81,7 @@
     effect: "'fade'"
 
 # instant specialty
-- selector: slider_instantspecialty
+- selector: sliderinstantspecialty
   captions: false
   images:
     - src: /assets/images/instantspecialty/sachetsphoto.jpg
@@ -91,7 +91,7 @@
     effect: "'fade'"
 
 # jafflejunkies
-- selector: slider_jafflejunkies
+- selector: sliderjafflejunkies
   captions: false
   images:
     - src: /assets/images/jafflejunkies/jj_logo.gif
@@ -99,7 +99,7 @@
     height: "'auto'"
 
 # pigcine
-- selector: slider_pigcine
+- selector: sliderpigcine
   captions: false
   images:
     - src: /assets/images/pigcine/pigcine_landing.jpg
@@ -118,7 +118,7 @@
     effect: "'fade'"
 
 # sound summit
-- selector: slider_soundsummit
+- selector: slidersoundsummit
   captions: false
   images:
     - src: /assets/images/soundsummit/SScolors.jpg
@@ -129,7 +129,7 @@
     effect: "'fade'"
 
 # uap
-- selector: slider_uap
+- selector: slideruap
   captions: false
   images:
     - src: /assets/images/uap/uap_landing.jpg

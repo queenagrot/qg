@@ -1,24 +1,20 @@
----
-layout: post
-permalink: /soundsummit/
-title: "Sound Summit"
-image_sliders:
-  - slidersoundsummit
-meta: ' Event Identity, Posters'
----
-<section class="section fadeup clear">
+I"n<section class="section fadeup clear">
 
 <div class="col-5-8 centre_align">
   <div id="slideshow">
-  {% include slider.html selector="slidersoundsummit" %}
+  <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div>
+  </div>
   </div>
 
   <div class="txt-centre">
-    <h2>{{ page.title }}</h2><br>
+    <h2>Sound Summit</h2><br />
     <p>Eye-popping duotones in sharp execution, the identity for this independent music festival was inspired by 'Fast Forward', a cassette magazine from Melbourne in the 80s and old French typographic archives.
-      <span class="meta">{{ page.meta }}</span>
+      <span class="meta"> Event Identity, Posters</span>
     </p>
     </div>
 </div>
 
 </section>
+:ET
