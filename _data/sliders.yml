@@ -3,16 +3,10 @@
   captions: false
   images:
     - src: /assets/images/auki/auki_bottles.jpg
-      alt: beauty oil bottle packaging design
     - data-src: /assets/images/auki/auki_oilface.jpg
-      alt: bottle applicator
     - data-src: /assets/images/auki/auki_capsules.jpg
-      alt: beauty oil capsules
-      data-caption: '#caption-3'
     - data-src: /assets/images/auki/auki_logowhite.jpg
-      alt: auki logo
     - data-src: /assets/images/auki/auki_laptop.gif
-      alt: website design shop
   settings:
     interval: "10000000000"
     height: "'auto'"
@@ -68,8 +62,6 @@
     - data-src: /assets/images/greenhillswagyu/gw_dlfront.jpg
     - data-src: /assets/images/greenhillswagyu/gw_signage.jpg
     - data-src: /assets/images/greenhillswagyu/gw_logo2.jpg
-    # - data-src: /assets/images/greenhillswagyu/gw_print.jpg
-    # - data-src: /assets/images/greenhillswagyu/gw_meatticket.jpg
   settings:
     interval: "4000"
     height: "'auto'"
@@ -120,10 +112,6 @@
     - data-src: /assets/images/pigcine/pigcine_about.gif
     - data-src: /assets/images/pigcine/pigcine_metro.jpg
     - data-src: /assets/images/pigcine/pigcine_speech.jpg
-
-
-    # - data-src: /assets/images/pigcine/pigcine_slides.jpg
-    # - data-src: /assets/images/pigcine/pigcine_speech.jpg
   settings:
     interval: "10000000000"
     height: "'auto'"
@@ -157,7 +145,6 @@
     - data-src: /assets/images/uap/uap_single.jpg
     - data-src: /assets/images/uap/uap_ipadfilter.gif
     - data-src: /assets/images/uap/uap_quotereq2.gif
-    # - data-src: /assets/images/uap/uap_mobbilingual.jpg
     - data-src: /assets/images/uap/uap_aboutbilingual.gif
   settings:
     interval: "8000"
