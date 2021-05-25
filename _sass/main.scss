@@ -20,9 +20,7 @@ body {
 }
 
 body.folio {
-    background: radial-gradient(ellipse at top, #e66465, transparent),
-            radial-gradient(ellipse at bottom, #4d9f0c, transparent);
-  // background: $backgroundColor;
+  background: $backgroundColor;
   color: $bodyColor;
   margin-top: 50%;
 }
