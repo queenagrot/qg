@@ -1,31 +1,6 @@
 {% include header.html %}
 
 
-<div class="flex-container nowrap">
-  <div class="flex-item">1</div>
-  <div class="flex-item">2</div>
-  <div class="flex-item">3</div>
-  <div class="flex-item">4</div>
-</div>
-
-<div class="flex-container wrap">
-  <div class="flex-item">P</div>
-  <div class="flex-item">A</div>
-  <div class="flex-item">M</div>
-  <div class="flex-item">E</div>
-  <div class="flex-item">L</div>
-  <div class="flex-item">6</div>
-  <div class="flex-item"><p>A</p></div>
-  <div class="flex-item double">If you think we're a good fit, send me an email and tell me about your project. </div>
-</div>
-
-<div class="flex-container nowrap">
-  <div class="flex-item">websites as if they were poems. ࿊</div>
-  <div class="flex-item experience">I've worked for all kinds of people; friends, friends of friends, startups, small businesses, big companies, contract work for other studios and even ran a studio once! I like the diversity, but I would also like to work with more weirdos on weirder projects. </div>
-  <div class="flex-item">links out<br>queena grot<br>(it's) guppy (baby)</div>
-  <div class="flex-item"> ⊡ it's 2021</div>
-</div>
-
 
 
 <!-- <div id="spinner">
@@ -41,9 +16,10 @@
   <li> </li>
   <li> </li>
   <li> </li>
-  <li> </li>
+  <li> </li>࿊
 </ul>
 </div> -->
+
 <div id="foliobg"></div>
 <div id="foliofg"></div>
 
@@ -52,7 +28,26 @@
     {{ post.content }}
   {% endfor %}
 
+<section class="section fadeup clear ottoman" style="z-index:3; position: relative;">
+  <div class="flex-container nowrap">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+    <div class="flex-item">4</div>
+  </div>
 
+  <div class="flex-container wrap">
+    <div class="flex-item">P</div>
+    <div class="flex-item">A</div>
+    <div class="flex-item"><span class="stretchfont">If you think we're a good fit, send me an email and tell me about your project™</span> </div>
+  </div>
 
+  <div class="flex-container nowrap">
+    <div class="flex-item">websites as if they were poems. </div>
+    <div class="flex-item experience">I've worked for all kinds of people; friends, friends of friends, startups, small businesses, big companies, contract work for other studios. I like the diversity. I would also like to work with more weirdos on weirder projects. </div>
+    <div class="flex-item">links out<br>queena grot<br>(it's) guppy (baby)</div>
+    <div class="flex-item"> ⊡ 2021</div>
+  </div>
+</section>
 
 {% include footer.html %}

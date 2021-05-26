@@ -4,6 +4,16 @@ body.folio { background: #ffffff; color: #000000; margin-top: 50%; }
 
 body.about { color: #ffffff; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; }
 
+.flex-container { display: flex; flex-direction: row; flex-wrap: wrap; }
+
+.flex-item { flex-grow: 1; height: 100px; }
+
+.experience { flex-basis: 20%; }
+
+.stretchfont { /* font-stretch: extra-condensed; */ transform: scaleY(0.3); /* letter-spacing: 2px; */ display: inline-block; /* font-size: 19px; */ transform: scaleY(2.2); /* transform-origin: 0 0; */ /* margin-bottom: -50%; */ font-family: Arial; }
+
+.ottoman { margin: 20px; }
+
 #foliobg { position: fixed; pointer-events: none; z-index: 0; top: 0%; opacity: 1; left: 0; width: 100%; height: 100%; background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, LightSalmon, transparent); }
 
 #foliofg { position: fixed; pointer-events: none; z-index: 20; top: 0; opacity: .4; left: 0; width: 100%; height: 100%; box-shadow: inset 60px 0 120px #fff, inset -60px 0 120px #fff; -webkit-animation: shadowFade 20s; animation-iteration-count: infinite; }

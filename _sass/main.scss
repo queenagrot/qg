@@ -41,27 +41,40 @@ body.about {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: red solid 1px;
+  // border: red solid 1px;
 }
 
 .flex-item {
-  border: green solid 1px;
+  // border: green solid 1px;
   flex-grow: 1;
   height: 100px;
 }
 
-.flex-item p {
-  font-size:
-}
-
-.double {
-  flex-basis: 36rem;
-}
+// .double {
+//   flex-basis: 36rem;
+// }
 
 .experience {
   flex-basis: 20%;
-  background-color: pink;
+  // background-color: pink;
 }
+
+.stretchfont {
+  /* font-stretch: extra-condensed; */
+transform: scaleY(0.3);
+/* letter-spacing: 2px; */
+display: inline-block;
+/* font-size: 19px; */
+transform: scaleY(2.2);
+/* transform-origin: 0 0; */
+/* margin-bottom: -50%; */
+font-family: Arial;
+}
+
+.ottoman {
+  margin: 20px;
+}
+
 
 // end
 
