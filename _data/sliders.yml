@@ -93,7 +93,7 @@
 - selector: sliderjafflejunkies
   captions: false
   images:
-    - src: /assets/images/jafflejunkies/jj_logo.gif
+    - src: /assets/images/jafflejunkies/jj_logo.png
   settings:
     height: "'auto'"
 
@@ -121,6 +121,7 @@
   captions: false
   images:
     - src: /assets/images/soundsummit/SScolors.jpg
+    - data-src: /assets/images/soundsummit/SSlogotype.png
   settings:
     interval: "10000000000"
     height: "'auto'"

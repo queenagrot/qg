@@ -26,7 +26,6 @@ body.folio {
 }
 
 body.about {
-  // background: $bodyColor;
   color: $backgroundColor;
   width: 100%;
   height: 100vh;
@@ -34,6 +33,64 @@ body.about {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+// START
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: red solid 1px;
+}
+
+.flex-item {
+  border: green solid 1px;
+  flex-grow: 1;
+  height: 100px;
+}
+
+.flex-item p {
+  font-size:
+}
+
+.double {
+  flex-basis: 36rem;
+}
+
+.experience {
+  flex-basis: 20%;
+  background-color: pink;
+}
+
+// end
+
+#foliobg {
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  top: 0%;
+  opacity: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, LightSalmon, transparent);
+}
+
+#foliofg {
+  position: fixed;
+  pointer-events: none;
+  z-index: 20;
+  top: 0;
+  opacity: .4;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow:
+    inset 60px 0 120px #fff,
+    inset -60px 0 120px #fff;
+  -webkit-animation: shadowFade 20s;
+  animation-iteration-count: infinite;
 }
 
 #spinner {
@@ -69,43 +126,6 @@ body.about {
   }
 }
 
-#foliobg {
-  position: fixed;
-  pointer-events: none;
-  z-index: 0;
-  top: 0%;
-  opacity: 1;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, LightSalmon, transparent);
-}
-
-#foliofg {
-  position: fixed;
-  pointer-events: none;
-  z-index: 20;
-  top: 0;
-  opacity: .4;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow:
-    inset 60px 0 120px #fff,
-    inset -60px 0 120px #fff;
-  -webkit-animation: shadowFade 20s;
-  animation-iteration-count: infinite;
-}
-
-
-.ideal-image-slider {
-z-index: 1;
-}
-
-.ideal-image-slider:hover {
-z-index: 1;
-}
-
 //TYPOGRAPHY
 
 p {
@@ -126,6 +146,10 @@ h2 {
     font-family: $highlightFont;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .meta {
@@ -216,6 +240,19 @@ body.about header {
      opacity: 1;
  }
 
+ //SLIDER
+
+ .ideal-image-slider {
+ z-index: 1;
+ }
+
+ #sliderjafflejunkies, #sliderinstantspecialty, #slidersoundsummit {
+   img {
+     position: relative;
+     z-index: 1;
+   }
+ }
+
  //BLOB
  #blob {
    position: fixed;
@@ -260,8 +297,6 @@ body.about header {
    position: fixed;
    font-size: 22px;
    animation: fadeIn 0.3s ease-in;
-   // opacity: 0;
-   // display: none;
  }
 
 .emojiactive {
@@ -270,7 +305,6 @@ body.about header {
   position: fixed;
   font-size: 2vw;
   animation: fadeIn 0.3s ease-in;
-  // opacity: 0;
   display: block;
 }
 
