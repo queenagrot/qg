@@ -4,6 +4,8 @@ title: "About page"
 class: "about"
 ---
 
+<!-- <div id="foliofg"></div> -->
+
 <svg id="blob" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear)">
 	<animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="5s"
@@ -29,16 +31,19 @@ class: "about"
 </div>
 
 <div id="div1">
-<span>build a fully<br>custom wordpress<br>website</span>
+<!-- <span>custom wordpress</span>
 <span>visual identities</span>
 <span>interactive digital experiences</span>
 <span>help you sell <br>your shit online</span>
-<span>translate the essence of what you do<br>into a brand that's authentic to you</span>
-<span>discounts for bipoc<br>& not-for-profits</span>
-<span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
-<span>holistic, bespoke approach</span>
-<span>this blob is your unformed project waiting to happen</span>
-<span>a design service<br>that is not exclusive<br>from regular people<br>and small business</span>
+<span>branding</span>
+<span>discounts for bipoc<br>& not-for-profits</span> -->
+
+<span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
+<span>playful digital design</span>
+<span>websites like poems</span>
+
+<span>clients include: kerrie hess, john mills himself, coyo, josephmark, breeder, urban art projects</span>
+
 
 <span class="div2">interested in where<br>design, art & community<br>intersect</span>
 <span class="div2">been designing for<br>almost a decade</span>

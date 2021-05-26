@@ -2,8 +2,8 @@
 - selector: sliderauki
   captions: false
   images:
-    - src: /assets/images/auki/auki_bottles.jpg
-    - data-src: /assets/images/auki/auki_oilface.jpg
+    - src: /assets/images/auki/auki_oilface.jpg
+    - data-src: /assets/images/auki/auki_bottles.jpg
     - data-src: /assets/images/auki/auki_capsules.jpg
     - data-src: /assets/images/auki/auki_logowhite.jpg
     - data-src: /assets/images/auki/auki_laptop.gif
@@ -32,7 +32,6 @@
   images:
     - src: /assets/images/bessa/bessa_neon.png
     - data-src: /assets/images/bessa/bessa_truck.jpg
-    - data-src: /assets/images/bessa/bessa_cup.png
   settings:
     interval: "10000000000"
     height: "'auto'"
@@ -122,7 +121,6 @@
   captions: false
   images:
     - src: /assets/images/soundsummit/SScolors.jpg
-    - data-src: /assets/images/soundsummit/SSposters.jpg
   settings:
     interval: "10000000000"
     height: "'auto'"

@@ -1,0 +1,30 @@
+I"M<section class="section fadeup clear">
+
+<div class="col-1-2 float_left">
+  <div id="slideshow">
+  <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div id="slideruap">
+  <img data-src="" data-src-2x="" src="/assets/images/uap/uap_landing.jpg" title="" alt="" />
+  <img data-src="/assets/images/uap/uap_loadscreen1.gif" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/assets/images/uap/uap_single.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/assets/images/uap/uap_ipadfilter.gif" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/assets/images/uap/uap_quotereq2.gif" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/assets/images/uap/uap_aboutbilingual.gif" data-src-2x="" src="" title="" alt="" />
+  </div>
+  </div>
+</div>
+
+<div class="col-1-2 float_left">
+  <div class="txt-left">
+    <h2>UAP Website</h2>
+    <br />
+    <p>It was very special to work with the behemoth creative that is Urban Art Projects. Together we made a website that celebrated their vibrant and extensive folio of public works around the world. The end result was an absolute beast of a site, carefully indexing tonnes of content that was also available in Mandarin for their growing international operations. Since then they have grown even bigger and this is no longer serving as their company website.
+      <span class="meta"> Role: Site Design (UI UX), Content Strategy, Branding&mdash; Developer: David Muirhead&mdash; Year: 2017&mdash; CMS: Wordpress
+      </span>
+    </p>
+  </div>
+</div>
+
+</section>
+:ET

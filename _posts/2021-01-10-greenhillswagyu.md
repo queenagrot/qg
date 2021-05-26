@@ -15,7 +15,7 @@ meta: ' Branding, Print Design, Marketing, Logo, Illustration'
 
   <div class="txt-left">
     <h2>{{ page.title }}</h2><br>
-    <p>Moving away from typical meat branding, the Greenhills Wagyu brand is more refined, balanced and sophisticated. Print handouts were designed for point of sale and distributors to inform customers and butchers alike of their carefully considered wagyu breeding practices.
+    <p>Have a cow. But keep it grassy. 
       <span class="meta">{{ page.meta }}</span>
     </p>
     </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /instantspecialty/
-title: "Instant Specialty"
+title: "Instant Specialty Sachets"
 image_sliders:
   - sliderinstantspecialty
 meta: ' Brand Identity, Packaging'
@@ -16,7 +16,7 @@ meta: ' Brand Identity, Packaging'
   <div class="txt-centre">
     <h2>{{ page.title }}</h2>
     <br>
-    <p>A service that offers to turn your coffee into instant coffee. Instant Specialty needed a neutral one-design-fits-all solution for their sachet template, one that could be personalised for their various coffee clients using their flagship colours. Nods to swiss design.   
+    <p>Instant Specialty turn your coffee into instant coffee. I designed a sachet template that could be personalised for different roasters using their flagship colours. 
       <span class="meta">{{ page.meta }}</span>
     </p>
     </div>

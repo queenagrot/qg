@@ -15,7 +15,7 @@ meta: ' Logotype, Illustration'
 
   <div class="txt-centre">
     <h2>{{ page.title }}</h2><br>
-    <p>A cheesy grin of a logo for a food truck startup, designed to make you want more.
+    <p>Cheesy grin of a logo for a food truck startup, designed to make you want more.
       <span class="meta">{{ page.meta }}</span>
     </p>
     </div>
