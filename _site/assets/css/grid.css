@@ -158,9 +158,9 @@ body.about header { background: none; }
 
 .div2 { display: none; }
 
-.script { font-family: Microsoft YaHei; color: #fff; font-size: 40px; display: block; position: relative; }
+.script { font-family: 'Arial'; color: #fff; font-size: 40px; display: block; position: relative; transform: scaleY(0.3); /* letter-spacing: 2px; */ display: inline-block; /* font-size: 19px; */ transform: scaleY(9.8); /* transform-origin: 0 0; */ /* margin-bottom: -50%; */ font-family: Arial; }
 
-.java { font-family: Microsoft YaHei; color: #fff; background-color: black; font-size: 40px; display: block; position: relative; }
+.java { font-family: 'Arial'; color: #fff; background-color: black; font-size: 40px; display: block; position: relative; }
 
 .java:before { content: ""; display: block; position: absolute; left: 85px; width: 20px; height: 100%; background-color: red; -webkit-animation-delay: 2s; -webkit-animation: grow 4s; -webkit-animation-delay: 0.5s; animation-fill-mode: forwards; }
 

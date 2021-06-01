@@ -38,14 +38,14 @@ class: "about"
 <span>branding</span>
 <span>discounts for bipoc<br>& not-for-profits</span> -->
 
-<span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
+<!-- <span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
 <span>playful digital design</span>
 <span>websites like poems</span>
 
-<span>clients include: kerrie hess, john mills himself, coyo, josephmark, breeder, urban art projects</span>
+<span>clients include: kerrie hess, john mills himself, coyo, josephmark, breeder, urban art projects</span> -->
 
 
-<span class="div2">interested in where<br>design, art & community<br>intersect</span>
+<!-- <span class="div2">interested in where<br>design, art & community<br>intersect</span>
 <span class="div2">been designing for<br>almost a decade</span>
 <span class="div2">come look at these lamps I made</span>
 <span class="div2">it's guppy baby</span>
@@ -54,6 +54,9 @@ class: "about"
 <span class="div2">leo moon<br>aquarius rising</span>
 <span class="div2">i am an independent, <br>multidisciplinary <br>designer</span>
 <span class="div2">hardworking, goodlooking</span>
+</div> -->
+
+<span class="div2">draw an tornado!</span>
 </div>
 
 <div id="btn_holder">

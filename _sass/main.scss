@@ -376,15 +376,23 @@ display: none;
 }
 
 .script {
-  font-family: Microsoft YaHei;
+  font-family: 'Arial';
   color: #fff;
   font-size: 40px;
   display: block;
   position: relative;
+  transform: scaleY(0.3);
+  /* letter-spacing: 2px; */
+  display: inline-block;
+  /* font-size: 19px; */
+  transform: scaleY(9.8);
+  /* transform-origin: 0 0; */
+  /* margin-bottom: -50%; */
+  font-family: Arial;
 }
 
 .java {
-  font-family: Microsoft YaHei;
+  font-family: 'Arial';
   color: #fff;
   background-color: black;
   font-size: 40px;
