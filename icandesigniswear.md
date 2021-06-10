@@ -31,12 +31,12 @@ class: "about"
 </div>
 
 <div id="div1">
-<!-- <span>custom wordpress</span>
+<span>custom wordpress</span>
 <span>visual identities</span>
 <span>interactive digital experiences</span>
 <span>help you sell <br>your shit online</span>
 <span>branding</span>
-<span>discounts for bipoc<br>& not-for-profits</span> -->
+<span>discounts for bipoc<br>& not-for-profits</span>
 
 <!-- <span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
 <span>playful digital design</span>

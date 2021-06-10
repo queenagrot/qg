@@ -5,6 +5,7 @@ $bodyFont: 'Courier Prime', monospace;
 $highlightFont: 'DM Mono', monospace;
 $txtPadding: 28px 20px;
 $txtPadTop: 28px 0 28px 0;
+$fadeTransition: opacity ease-in-out .8s;
 //BTN
 $stripe-height: 7px;
 $btn-color: white;
@@ -17,11 +18,10 @@ $border-color-hover: black;
 body {
   font-family: $bodyFont;
   font-size: 12px;
+  transition: background-color ease-in-out .8s;
 }
 
 body.folio {
-  background: $backgroundColor;
-  color: $bodyColor;
   margin-top: 50%;
 }
 
@@ -33,6 +33,61 @@ body.about {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+//BG COLOUR SCROLL
+
+.bodynormal {
+  background: $backgroundColor;
+  color: $bodyColor;
+}
+
+.bodyfooter {
+  background-color: #917070;
+  color: $backgroundColor;
+}
+
+#foliobg {
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at top, transparent, transparent),
+  radial-gradient(ellipse at bottom, LightSalmon, transparent);
+  transition: $fadeTransition;
+}
+
+.bgnormal {
+  opacity: 1;
+}
+
+.bgfooter {
+  opacity: 0;
+}
+
+#foliofg {
+  position: fixed;
+  pointer-events: none;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: $fadeTransition;
+}
+
+.fgnormal {
+  box-shadow:
+    inset 60px 0 120px #fff,
+    inset -60px 0 120px #fff;
+  opacity: .4;
+}
+
+.fgfooter {
+  opacity: 0;
 }
 
 // START
@@ -49,10 +104,6 @@ body.about {
   flex-grow: 1;
   height: 100px;
 }
-
-// .double {
-//   flex-basis: 36rem;
-// }
 
 .experience {
   flex-basis: 20%;
@@ -75,36 +126,6 @@ font-family: Arial;
   margin: 20px;
 }
 
-
-// end
-
-#foliobg {
-  position: fixed;
-  pointer-events: none;
-  z-index: 0;
-  top: 0%;
-  opacity: 1;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, LightSalmon, transparent);
-}
-
-#foliofg {
-  position: fixed;
-  pointer-events: none;
-  z-index: 20;
-  top: 0;
-  opacity: .4;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow:
-    inset 60px 0 120px #fff,
-    inset -60px 0 120px #fff;
-  -webkit-animation: shadowFade 20s;
-  animation-iteration-count: infinite;
-}
 
 #spinner {
   font-family: arial;
@@ -238,8 +259,6 @@ body.about header {
 .nav-up {
     top: -80px;
 }
-
-//INTERSECTION OBSERVER
 
 .fadeup {
    opacity: 0;

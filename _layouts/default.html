@@ -20,15 +20,16 @@
 </ul>
 </div>
 
-<div id="foliobg"></div>
-<div id="foliofg"></div>
+<div id="foliobg" class="bgnormal"></div>
+<div id="foliofg" class="fgnormal"></div>
 
 {{ content }}
   {% for post in site.posts %}
     {{ post.content }}
   {% endfor %}
 
-<section class="section fadeup clear ottoman" style="z-index:3; position: relative;">
+<footer>
+<section id="on-scroll-to-bottom" class="section fadeup clear ottoman" style="z-index:3; position: relative;">
   <div class="flex-container nowrap">
     <div class="flex-item">1</div>
     <div class="flex-item">2</div>
@@ -36,7 +37,7 @@
     <div class="flex-item">4</div>
   </div>
 
-  <div class="flex-container wrap">
+  <!-- <div class="flex-container wrap">
     <div class="flex-item">P</div>
     <div class="flex-item">A</div>
     <div class="flex-item"><span class="stretchfont">If you think we're a good fit, send me an email and tell me about your project™</span> </div>
@@ -47,7 +48,15 @@
     <div class="flex-item experience">I've worked for all kinds of people; friends, friends of friends, startups, small businesses, big companies, contract work for other studios. I like the diversity. I would also like to work with more weirdos on weirder projects. </div>
     <div class="flex-item">links out<br>queena grot<br>(it's) guppy (baby)</div>
     <div class="flex-item"> ⊡ 2021</div>
-  </div>
+  </div> -->
 </section>
+<section class="clear">
+  <div id="btn_holder">
+  	<button id=" " class="btn btn--stripe btn_light"><span>about me and what I do</span></button>
+  </div>
+
+  <button id=" " class="btn btn--stripe btn_light">Email me about your project</button>
+  </section>
+</footer>
 
 {% include footer.html %}

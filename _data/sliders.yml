@@ -120,8 +120,8 @@
 - selector: slidersoundsummit
   captions: false
   images:
-    - src: /assets/images/soundsummit/SScolors.jpg
-    - data-src: /assets/images/soundsummit/SSlogotype.png
+    - src: /assets/images/soundsummit/SSlogotype.png
+    - data-src: /assets/images/soundsummit/SScolors.jpg
   settings:
     interval: "10000000000"
     height: "'auto'"

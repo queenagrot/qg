@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Pamela Rosel</title>
-    <meta name="description" content="Pamela Rosel is a freelance designer based in Brisbane, Meanjin, interested in the intersection of art and design, creating meaningful experiences across branding and digital.">
-
-    <link rel="stylesheet" href="/assets/css/resets.css">
-    <link rel="stylesheet" href="/assets/css/grid.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-    <!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.8 -->
-
-  </head>
-
-<body class="about">
-  <header class="nav-down">
-    <ul class='intro'>
-      <li><h1>Pamela Rosel</h1></li>
-      <li><h1><span></span></h1></li>
-    </ul>
-    <nav>
-      <a href="http://localhost:4000" class="navfolio">Folio</a>
-      <a href="http://localhost:4000/icandesigniswear" class="navabout"><span class="mob_hide">How can I help you?</span> <span class="mob_show">Contact</span></a>
-    </nav>
-  </header>
-
-
-<!-- <div id="foliofg"></div> -->
+I"&<!-- <div id="foliofg"></div> -->
 
 <svg id="blob" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear)">
@@ -63,7 +28,7 @@
 <span>interactive digital experiences</span>
 <span>help you sell <br />your shit online</span>
 <span>branding</span>
-<span>discounts for bipoc<br />&amp; not-for-profits</span>
+<span>discounts for bipoc<br />&amp; not-for-profits</span> --&gt;
 
 <!-- <span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
 <span>playful digital design</span>
@@ -72,19 +37,19 @@
 <span>clients include: kerrie hess, john mills himself, coyo, josephmark, breeder, urban art projects</span> -->
 
 
-<!-- <span class="div2">interested in where<br>design, art & community<br>intersect</span>
-<span class="div2">been designing for<br>almost a decade</span>
+&lt;!-- <span class="div2">interested in where<br />design, art &amp; community<br />intersect</span>
+<span class="div2">been designing for<br />almost a decade</span>
 <span class="div2">come look at these lamps I made</span>
 <span class="div2">it's guppy baby</span>
-<span class="div2">v open-minded, would<br>collaborate on weirdo<br>experimental projects</span>
-<span class="div2">curious<br>playful<br>honest<br>alien</span>
-<span class="div2">leo moon<br>aquarius rising</span>
-<span class="div2">i am an independent, <br>multidisciplinary <br>designer</span>
+<span class="div2">v open-minded, would<br />collaborate on weirdo<br />experimental projects</span>
+<span class="div2">curious<br />playful<br />honest<br />alien</span>
+<span class="div2">leo moon<br />aquarius rising</span>
+<span class="div2">i am an independent, <br />multidisciplinary <br />designer</span>
 <span class="div2">hardworking, goodlooking</span>
-</div> -->
-
-<span class="div2">draw an tornado!</span>
 </div>
+
+<p><span class="div2">draw an tornado!</span>
+&lt;/div&gt;</p>
 
 <div id="btn_holder">
 	<button id="btn_aboutme" class="btn btn--stripe btn_light"><span>what about me?</span></button>
@@ -92,15 +57,4 @@
 </div>
 
 <p><button id="btn_email" class="btn btn--stripe btn_light">Email me</button></p>
-
-
-<!-- <script type="text/javascript" src="/assets/js/slider/ideal-image-slider.js"></script> -->
-
-<!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.8 -->
-<script type="text/javascript" src="/assets/js/jquery-3.5.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
-</body>
-</html>
-
+:ET
