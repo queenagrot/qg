@@ -3,6 +3,8 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: 'Courier Prime', monospace;
 $highlightFont: 'DM Mono', monospace;
+$displayFont: 'Arial';
+$padding: 28px;
 $txtPadding: 28px 20px;
 $txtPadTop: 28px 0 28px 0;
 $fadeTransition: opacity ease-in-out .8s;
@@ -18,11 +20,11 @@ $border-color-hover: black;
 body {
   font-family: $bodyFont;
   font-size: 12px;
-  transition: background-color ease-in-out .8s;
 }
 
 body.folio {
   margin-top: 50%;
+  transition: background-color ease-in-out .8s;
 }
 
 body.about {
@@ -93,37 +95,36 @@ body.about {
 // START
 
 .flex-container {
+  margin: 0 auto;
+  width: 62.5%;
+  text-align: center;
+  padding-bottom: $padding;
+}
+
+.btn_holder {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  // border: red solid 1px;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .flex-item {
-  // border: green solid 1px;
-  flex-grow: 1;
-  height: 100px;
+  flex-basis: 50%;
 }
 
-.experience {
-  flex-basis: 20%;
-  // background-color: pink;
+.flex-item:hover {
+  flex-basis: 90%;
+}
+
+.btn .btn_holder {
+  margin-right: 20px;
 }
 
 .stretchfont {
-  /* font-stretch: extra-condensed; */
 transform: scaleY(0.3);
-/* letter-spacing: 2px; */
 display: inline-block;
-/* font-size: 19px; */
 transform: scaleY(2.2);
-/* transform-origin: 0 0; */
-/* margin-bottom: -50%; */
-font-family: Arial;
-}
-
-.ottoman {
-  margin: 20px;
+padding-bottom: 23px;
 }
 
 
@@ -180,6 +181,11 @@ h2 {
     font-family: $highlightFont;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-size: 36px;
 }
 
 .italic {

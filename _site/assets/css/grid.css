@@ -1,6 +1,6 @@
-body { font-family: "Courier Prime", monospace; font-size: 12px; transition: background-color ease-in-out .8s; }
+body { font-family: "Courier Prime", monospace; font-size: 12px; }
 
-body.folio { margin-top: 50%; }
+body.folio { margin-top: 50%; transition: background-color ease-in-out .8s; }
 
 body.about { color: #ffffff; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; }
 
@@ -20,15 +20,17 @@ body.about { color: #ffffff; width: 100%; height: 100vh; display: flex; justify-
 
 .fgfooter { opacity: 0; }
 
-.flex-container { display: flex; flex-direction: row; flex-wrap: wrap; }
+.flex-container { margin: 0 auto; width: 62.5%; text-align: center; padding-bottom: 28px; }
 
-.flex-item { flex-grow: 1; height: 100px; }
+.btn_holder { display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; }
 
-.experience { flex-basis: 20%; }
+.flex-item { flex-basis: 50%; }
 
-.stretchfont { /* font-stretch: extra-condensed; */ transform: scaleY(0.3); /* letter-spacing: 2px; */ display: inline-block; /* font-size: 19px; */ transform: scaleY(2.2); /* transform-origin: 0 0; */ /* margin-bottom: -50%; */ font-family: Arial; }
+.flex-item:hover { flex-basis: 90%; }
 
-.ottoman { margin: 20px; }
+.btn .btn_holder { margin-right: 20px; }
+
+.stretchfont { transform: scaleY(0.3); display: inline-block; transform: scaleY(2.2); padding-bottom: 23px; }
 
 #spinner { font-family: arial; position: absolute; top: 30%; left: 50%; }
 
@@ -70,6 +72,8 @@ a { color: #000000; text-decoration: underline; }
 body.about a { color: #ffffff; }
 
 h2 { font-family: "DM Mono", monospace; font-weight: 300; text-transform: uppercase; }
+
+h3 { font-family: 'Arial'; font-size: 36px; }
 
 .italic { font-style: italic; }
 
