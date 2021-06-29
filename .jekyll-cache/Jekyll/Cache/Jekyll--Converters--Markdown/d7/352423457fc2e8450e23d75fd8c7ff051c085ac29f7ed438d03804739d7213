@@ -1,6 +1,4 @@
-I"ú<!-- <div id="foliofg"></div> -->
-
-<svg id="blob" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
+I"Ó<svg id="blob" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear)">
 	<animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="5s" values="M364.504 0.00131368C416.594 0.168265 466.139 20.1059 512.391 44.0676C557.895 67.642 602.302 96.1253 631.434 138.289C659.943 179.551 664.767 231.184 675.519 280.171C686.2 328.838 699.684 376.947 694.692 426.522C689.39 479.177 679.959 535.064 645.785 575.472C611.738 615.729 556.092 627.656 507.429 647.946C460.761 667.403 415.021 690.642 364.504 692.748C313.131 694.889 261.064 684.352 215.724 660.104C171.077 636.226 142.122 593.131 108.11 555.626C72.2421 516.076 25.1071 483.213 9.10745 432.275C-7.10404 380.663 -0.388863 322.784 19.1253 272.328C37.8438 223.929 83.0317 193.02 116.859 153.669C149.559 115.629 173.536 69.5665 216.159 43.1182C260.47 15.6227 312.356 -0.165822 364.504 0.00131368Z;
 
@@ -23,32 +21,27 @@
 </div>
 
 <div id="div1">
-<!-- <span>custom wordpress</span>
-<span>visual identities</span>
-<span>interactive digital experiences</span>
-<span>help you sell <br>your shit online</span>
-<span>branding</span>
-<span>discounts for bipoc<br>& not-for-profits</span> -->
 
-<!-- <span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
-<span>playful digital design</span>
-<span>websites like poems</span>
+			<span class="para_about">I'm an independent multi-disciplinary designer and artist. I specialise in creating unique visual identities and digital experiences. Always learning new things and expanding my practice, Iâ€™ve been working in the industry for 10 years. </span>
 
-<span>clients include: kerrie hess, john mills himself, coyo, josephmark, breeder, urban art projects</span> -->
+			<span><u>Services</u><br />
+			Brand Identity<br />
+			Digital design<br />
+			Art direction<br />
+			Packaging<br />
+			Editorial &amp; Print<br />
+			Online store</span>
 
+			<span><u>Process</u><br />
+			Bespoke<br />
+			Holistic<br />
+			Experimental<br />
+			Mixed media<br />
+			Collaborative</span>
 
-<!-- <span class="div2">interested in where<br>design, art & community<br>intersect</span>
-<span class="div2">been designing for<br>almost a decade</span>
-<span class="div2">come look at these lamps I made</span>
-<span class="div2">it's guppy baby</span>
-<span class="div2">v open-minded, would<br>collaborate on weirdo<br>experimental projects</span>
-<span class="div2">curious<br>playful<br>honest<br>alien</span>
-<span class="div2">leo moon<br>aquarius rising</span>
-<span class="div2">i am an independent, <br>multidisciplinary <br>designer</span>
-<span class="div2">hardworking, goodlooking</span>
-</div> -->
+			<span class="para_about">Special interest in digital projects that are outside the ordinary! If that sounds like you, hit me up â˜¯ </span>
 
-<span class="div2">draw an tornado!</span>
+<!-- <span class="div2">draw an tornado!</span> -->
 </div>
 
 <div id="btn_holder">

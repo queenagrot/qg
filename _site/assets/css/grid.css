@@ -8,6 +8,8 @@ body.about { color: #ffffff; width: 100%; height: 100vh; display: flex; justify-
 
 .bodyfooter { background-color: #917070; color: #ffffff; }
 
+.bodyfooter a { color: #ffffff; }
+
 #foliobg { position: fixed; pointer-events: none; z-index: 0; top: 0%; left: 0; width: 100%; height: 100%; background: radial-gradient(ellipse at top, transparent, transparent), radial-gradient(ellipse at bottom, LightSalmon, transparent); transition: opacity ease-in-out 0.8s; }
 
 .bgnormal { opacity: 1; }
@@ -20,7 +22,7 @@ body.about { color: #ffffff; width: 100%; height: 100vh; display: flex; justify-
 
 .fgfooter { opacity: 0; }
 
-.flex-container { margin: 0 auto; width: 62.5%; text-align: center; padding-bottom: 28px; }
+.flex-container { margin: 0 auto; width: 62.5%; text-align: center; padding-bottom: 150px; }
 
 .btn_holder { display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; }
 
@@ -68,6 +70,10 @@ body.about { color: #ffffff; width: 100%; height: 100vh; display: flex; justify-
 p { line-height: 1.25em; }
 
 a { color: #000000; text-decoration: underline; }
+
+button a { color: #ffffff; text-decoration: none; }
+
+button a:hover { color: #000000; }
 
 body.about a { color: #ffffff; }
 
@@ -170,11 +176,13 @@ body.about header { background: none; }
 
 #div1 { visibility: hidden; position: relative; width: 100%; height: 450px; margin: -300px auto 0; }
 
-#div1 span { position: absolute; top: 0px; left: 0px; font-family: "DM Mono", monospace; font-weight: 100; text-transform: uppercase; color: #FFF; }
+#div1 span { position: absolute; top: 0px; left: 0px; font-family: "DM Mono", monospace; font-weight: 100; color: #FFF; }
 
 .div2 { display: none; }
 
-.script { font-family: 'Arial'; color: #fff; font-size: 40px; display: block; position: relative; transform: scaleY(0.3); /* letter-spacing: 2px; */ display: inline-block; /* font-size: 19px; */ transform: scaleY(9.8); /* transform-origin: 0 0; */ /* margin-bottom: -50%; */ font-family: Arial; }
+.para_about { width: 25%; }
+
+.script { font-family: 'Arial'; }
 
 .java { font-family: 'Arial'; color: #fff; background-color: black; font-size: 40px; display: block; position: relative; }
 
@@ -199,6 +207,8 @@ body.about header { background: none; }
 .btn--stripe { overflow: hidden; position: relative; }
 
 .btn--stripe:after { content: ''; display: block; height: 7px; width: 100%; background-image: repeating-linear-gradient(45deg, white, white 1px, transparent 2px, transparent 5px); -webkit-backface-visibility: hidden; backface-visibility: hidden; border-top: 1px solid white; position: absolute; left: 0; bottom: 0; background-size: 7px 7px; }
+
+.btn--stripe:hover a { color: black; }
 
 .btn--stripe:hover { background-color: white; color: black; border-color: black; }
 

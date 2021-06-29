@@ -586,10 +586,6 @@ $(document).ready(function() {
 
     sectionObserver.observe(footer);
 
-
-
-
-
 }
 });
 // end of document ready function executing about vs homepage scripts

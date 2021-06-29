@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Pamela Rosel</title>
-    <meta name="description" content="Pamela Rosel is a freelance designer based in Brisbane, Meanjin, interested in the intersection of art and design, creating meaningful experiences across branding and digital.">
-
-    <link rel="stylesheet" href="/assets/css/resets.css">
-    <link rel="stylesheet" href="/assets/css/grid.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-    <!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.8 -->
-
-  </head>
-
-<body class="about">
-  <header class="nav-down">
-    <ul class='intro'>
-      <li><h1>Pamela Rosel</h1></li>
-      <li><h1><span></span></h1></li>
-    </ul>
-    <nav>
-      <a href="http://localhost:4000" class="navfolio">Folio</a>
-      <a href="http://localhost:4000/icandesigniswear" class="navabout"><span class="mob_hide">How can I help you?</span> <span class="mob_show">Contact</span></a>
-    </nav>
-  </header>
-
+I"?<!-- <div id="foliofg"></div> -->
 
 <svg id="blob" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear)">
@@ -57,45 +24,33 @@
 
 <div id="div1">
 
-			<span class="para_about">I'm an independent multi-disciplinary designer and artist. I specialise in creating unique visual identities and digital experiences. Always learning new things and expanding my practice, I’ve been working in the industry for 10 years. </span>
+<span class="para_about">I'm an independent multi-disciplinary designer and artist. I specialise in creating unique visual identities and digital experiences. Always learning new things and expanding my practice, I’ve been working in the industry for 10 years. </span>
 
-			<span><u>Services</u><br />
-			Brand Identity<br />
-			Digital design<br />
-			Art direction<br />
-			Packaging<br />
-			Editorial &amp; Print<br />
-			Online store</span>
+<span><u>Services</u><br />
+Brand Identity<br />
+Digital design<br />
+Art direction<br />
+Packaging<br />
+Editorial &amp; Print<br />
+Online store</span>
 
-			<span><u>Process</u><br />
-			Bespoke<br />
-			Holistic<br />
-			Experimental<br />
-			Mixed media<br />
-			Collaborative</span>
+<span><u>Process</u><br />
+Bespoke<br />
+Holistic<br />
+Experimental<br />
+Mixed media<br />
+Collaborative</span>
 
-			<span class="para_about">Special interest in digital projects that are outside the ordinary! If that sounds like you, hit me up. </span>
 
-			<span><img width="175" src="http://localhost:4000/assets/images/about/pr_animated1.gif" alt="here pamela sits in her faithful computer chair" /></span>
+
 
 <!-- <span class="div2">draw an tornado!</span> -->
 </div>
 
 <div id="btn_holder">
-	<button id="btn_aboutme" class="btn btn--stripe btn_light"><span>About me</span></button>
+	<button id="btn_aboutme" class="btn btn--stripe btn_light"><span>what about me?</span></button>
 	<button id="btn_back" class="nodisplay btn btn--stripe btn_light"><span>what about you?</span></button>
 </div>
 
 <p><button id="btn_email" class="btn btn--stripe btn_light">Email me</button></p>
-
-
-<!-- <script type="text/javascript" src="/assets/js/slider/ideal-image-slider.js"></script> -->
-
-<!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.8 -->
-<script type="text/javascript" src="/assets/js/jquery-3.5.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
-</body>
-</html>
-
+:ET

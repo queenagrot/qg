@@ -4,8 +4,6 @@ title: "About page"
 class: "about"
 ---
 
-<!-- <div id="foliofg"></div> -->
-
 <svg id="blob" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear)">
 	<animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="5s"
@@ -25,42 +23,45 @@ class: "about"
 </defs>
 </svg>
 
+
+
 <div id="all">
   <div class="java"> </div>
   <div class="script">Things I can do</div>
 </div>
 
+
+
 <div id="div1">
-<span>custom wordpress</span>
-<span>visual identities</span>
-<span>interactive digital experiences</span>
-<span>help you sell <br>your shit online</span>
-<span>branding</span>
-<span>discounts for bipoc<br>& not-for-profits</span>
 
-<!-- <span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span><span>posters, editorials, <br>book covers, signage, <br>packaging, handouts,<br>print, textiles,<br>you name it!</span>
-<span>playful digital design</span>
-<span>websites like poems</span>
+			<span class="para_about">I'm an independent multi-disciplinary designer and artist. I specialise in creating unique visual identities and digital experiences. Always learning new things and expanding my practice, I’ve been working in the industry for 10 years. </span>
 
-<span>clients include: kerrie hess, john mills himself, coyo, josephmark, breeder, urban art projects</span> -->
+			<span><u>Services</u><br>
+			Brand Identity<br>
+			Digital design<br>
+			Art direction<br>
+			Packaging<br>
+			Editorial & Print<br>
+			Online store</span>
 
+			<span><u>Process</u><br>
+			Bespoke<br>
+			Holistic<br>
+			Experimental<br>
+			Mixed media<br>
+			Collaborative</span>
 
-<!-- <span class="div2">interested in where<br>design, art & community<br>intersect</span>
-<span class="div2">been designing for<br>almost a decade</span>
-<span class="div2">come look at these lamps I made</span>
-<span class="div2">it's guppy baby</span>
-<span class="div2">v open-minded, would<br>collaborate on weirdo<br>experimental projects</span>
-<span class="div2">curious<br>playful<br>honest<br>alien</span>
-<span class="div2">leo moon<br>aquarius rising</span>
-<span class="div2">i am an independent, <br>multidisciplinary <br>designer</span>
-<span class="div2">hardworking, goodlooking</span>
-</div> -->
+			<span class="para_about">Special interest in digital projects that are outside the ordinary! If that sounds like you, hit me up. </span>
 
-<span class="div2">draw an tornado!</span>
+			<span><img width="175" src="{{ site.url }}/assets/images/about/pr_animated1.gif" alt="here pamela sits in her faithful computer chair" /></span>
+
+<!-- <span class="div2">draw an tornado!</span> -->
 </div>
 
+
+
 <div id="btn_holder">
-	<button id="btn_aboutme" class="btn btn--stripe btn_light"><span>what about me?</span></button>
+	<button id="btn_aboutme" class="btn btn--stripe btn_light"><span>About me</span></button>
 	<button id="btn_back" class="nodisplay btn btn--stripe btn_light"><span>what about you?</span></button>
 </div>
 
