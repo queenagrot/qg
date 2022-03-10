@@ -8,7 +8,7 @@ $flow: .4s;
 // $bodyFont: 'Courier Prime', monospace;
 $highlightFont: 'DM Mono', monospace;
 $displayFont: 'Arial';
-$fadeTransition: opacity ease-in-out .8s;
+$fadeTransition: opacity ease-in-out 8s;
 
 body {
   font-family: $bodyFont;
@@ -207,11 +207,11 @@ background: none;
   left: 0;
   width: 100%;
   height: 100%;
-  transition: $fadeTransition;
+  transition: 50s;
 }
 
 .fgfooter {
-  opacity: 1;
+  opacity: .8;
   box-shadow: inset 60px 0 120px #c4a160, inset -60px 0 120px #fff;
 }
 
