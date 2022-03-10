@@ -2,44 +2,23 @@
 
 //UNIVERSAL
 $backgroundColor: #000000;
-$bodyColor: #FFFFFF;
-// $bodyFont: 'Courier Prime', monospace;
+$bodyColor: #ffffff;
 $bodyFont: 'Xanh Mono', monospace;
 $flow: .4s;
-
+// $bodyFont: 'Courier Prime', monospace;
 $highlightFont: 'DM Mono', monospace;
 $displayFont: 'Arial';
-$padding: 28px;
-$txtPadding: 28px 20px;
-$txtPadTop: 28px 0 28px 0;
 $fadeTransition: opacity ease-in-out .8s;
-//BTN
-$stripe-height: 7px;
-$btn-color: white;
-$btn-background: none;
-$btn-color-hover: black;
-$btn-background-hover: white;
-$border-color: white;
-$border-color-hover: black;
 
 body {
   font-family: $bodyFont;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 body.folio {
-  margin-top: 50%;
   transition: background-color ease-in-out .8s;
-}
-
-body.about {
-  color: $backgroundColor;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  background: $backgroundColor;
+  color: $bodyColor;
 }
 
 #logo {
@@ -55,6 +34,55 @@ body.about {
   height: 30%;
   position: fixed;
   z-index: -1;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  z-index: 40;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.blackbg {
+  background-color: #000000;
+}
+
+//TYPOGRAPHY
+
+h2 {
+  display: none;
+}
+
+[class*='col-'] p {
+  margin: .8em 0 2.8em 2px;
+}
+
+[class*='col-'] a {
+  text-decoration: underline;
+  color:$bodyColor;
+  text-decoration-color: bisque;
+  text-decoration-thickness: .5px;
+  transition: $flow;
+}
+
+details {
+  position: absolute;
+  padding: .8em 2px .2px 2px;
+  z-index: 30;
+}
+
+a:hover {
+  color: bisque;
+}
+
+summary:hover {
+  cursor: pointer;
 }
 
 //INFO BTN
@@ -75,7 +103,58 @@ body.about {
   cursor: pointer;
 }
 
-//BG COLOUR SCROLL
+//STICKY HEADER HIDE ON SCROLL
+
+header {
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  transition: top 0.4s ease-in-out;
+  width: 100%;
+  z-index: 40;
+}
+
+body.about header {
+background: none;
+}
+
+.nav-up {
+  top: -80px;
+}
+
+//YOUTUBE EMBED CONTAINER 
+
+.video-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+}
+
+.video-container iframe, .video-container object, .video-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+
+//INTERSECTION OBSERVER
+
+.fadeup {
+   opacity: 0;
+   transition-property: opacity;
+   transition-duration: .4s;
+   transition-delay: .4s;
+   transition-timing-function: linear;
+ }
+
+ .in-view {
+     opacity: 1;
+ }
+
+ //BG COLOUR SCROLL
 
 .bodynormal {
   background: $backgroundColor;
@@ -133,41 +212,7 @@ body.about {
   opacity: 0;
 }
 
-// START
-
-.flex-container {
-  margin: 0 auto;
-  width: 62.5%;
-  text-align: center;
-  padding-bottom: 150px;
-}
-
-.btn_holder {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 100%;
-}
-
-.flex-item {
-  flex-basis: 50%;
-}
-
-.flex-item:hover {
-  flex-basis: 90%;
-}
-
-.btn .btn_holder {
-  margin-right: 20px;
-}
-
-.stretchfont {
-transform: scaleY(0.3);
-display: inline-block;
-transform: scaleY(2.2);
-padding-bottom: 23px;
-}
-
+// SPINNER
 
 #spinner {
   font-family: arial;
@@ -202,435 +247,9 @@ padding-bottom: 23px;
   }
 }
 
-//TYPOGRAPHY
-
-p {
-  // text-align: justify;
-  line-height: 1.25em;
-}
-
-a {
-  color: $bodyColor;
-  text-decoration: underline;
-}
-
-button a {
-  color: $backgroundColor;
-  text-decoration: none;
-}
-
-button a:hover {
-  color: $bodyColor;
-}
-
-body.about a {
-  color: $backgroundColor;
-}
-
-h2 {
-    font-family: $highlightFont;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-family: 'Arial';
-    font-size: 36px;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.meta {
-  font-family: 'DM Mono', monospace;
-  text-transform: uppercase;
-  font-size: .72em;
-  text-indent: 10px;
-}
-
-//NAVIGATION
-
-nav {
-  top: 0;
-  right: 0;
-  width: 25%;
-  padding: $txtPadding;
-  position: absolute;
-  a {
-    text-decoration: none;
-    padding-right: 10px;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-}
-
-.folio .navfolio, .about .navabout {
-  text-decoration: underline;
-}
-
-.intro li {
-  width: 25%;
-  padding: $txtPadding;
-  display: inline-block;
-}
-
-h1 span::before{
-  content: '';
-  animation: profile 9s infinite;
-  position: relative;
-  display: block;
-}
-
-@keyframes profile {
-  0% { content: 'Freelance Designer'; top:0; opacity: 1;}
-  30% { content: 'Freelance Designer'; top:0; opacity: 1;}
-  35% { content: 'Freelance Designer'; top:0; opacity: 0;}
-  39% { content: 'Freelance Designer'; top:0; opacity: 0;}
-  40% { content: 'Brisbane, Meanjin'; top:1em; opacity: 0;}
-  50% { content: 'Brisbane, Meanjin'; top:0; opacity: 1;}
-  80% { content: 'Brisbane, Meanjin'; top:0; opacity: 1;}
-  85% { content: 'Brisbane, Meanjin'; top:0; opacity: 0;}
-  90% { content: 'Freelance Designer'; top:1em; opacity: 0;}
-  100% { content: 'Freelance Designer'; top:0; opacity: 1;}
-}
-
-//Sticky Header Hide on Scroll
-
-header {
-  background: transparent;
-  height: 70px;
-  position: fixed;
-  top: 0;
-  transition: top 0.4s ease-in-out;
-  width: 100%;
-  z-index: 115;
-}
-
-body.about header {
-  background: none;
-}
-
-.nav-up {
-    top: -80px;
-}
-
-.fadeup {
-   opacity: 0;
-   transition-property: opacity;
-   transition-duration: .4s;
-   transition-delay: .4s;
-   transition-timing-function: linear;
- }
-
- .in-view {
-     opacity: 1;
- }
-
- //SLIDER
-
- .ideal-image-slider {
- z-index: 1;
- }
-
- #sliderjafflejunkies, #sliderinstantspecialty, #slidersoundsummit {
-   img {
-     position: relative;
-     z-index: 1;
-   }
- }
-
- //BLOB
- #blob {
-   position: fixed;
-   width: 696px;
-   height: 694px;
-   animation-name: scale-in-center;
-   animation-duration: 12s;
- }
-
- @-webkit-keyframes scale-in-center {
-   0% {
-     -webkit-transform: scale(0);
-             transform: scale(0);
-     opacity: 0;
-   }
-   20% { opacity: 0; }
-   100% {
-     -webkit-transform: scale(1);
-             transform: scale(1);
-     opacity: 1;
-   }
- }
- @keyframes scale-in-center {
-   0% {
-     -webkit-transform: scale(0);
-             transform: scale(0);
-     opacity: 0;
-   }
-   20% { opacity: 0; }
-   100% {
-     -webkit-transform: scale(1);
-             transform: scale(1);
-     opacity: 1;
-   }
- }
-
- //EMOJIS
-
- .emoji {
-   background: none;
-   text-decoration: none;
-   position: fixed;
-   font-size: 22px;
-   animation: fadeIn 0.3s ease-in;
- }
-
-.emojiactive {
-  background: none;
-  text-decoration: none;
-  position: fixed;
-  font-size: 2vw;
-  animation: fadeIn 0.3s ease-in;
-  display: block;
-}
-
- .fadeOut {
-   animation: fadeOut 0.3s ease-in;
- }
-
- @keyframes fadeIn {
-   from {
-     opacity: 0;
-   }
-   to {
-     opacity: 1;
-   }
- }
-
- @keyframes fadeOut {
-   from {
-     opacity: 1;
-   }
-   to {
-     opacity: 0;
-   }
- }
-
- // ANIMATED WORD CLOUD
-
- #all {
-  margin: 160px auto;
-  width: 100px;
-  height: 100px;
-  -webkit-animation: grow 4s;
-  -webkit-animation-delay:0.5s;
-  animation-fill-mode: forwards;
-}
-
-#div1 {
-  visibility: hidden;
-  position: relative;
-  width: 100%;
-  height: 450px;
-  margin: -300px auto 0;
-  span {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      font-family: $highlightFont;
-      font-weight: 100;
-      color: #FFF;
-  }
-}
-
-.div2 {
-display: none;
-}
-
-.para_about {
-  width: 25%;
-}
-
-.script {
-  font-family: 'Arial';
-  // color: #fff;
-  // font-size: 40px;
-  // display: block;
-  // position: relative;
-  // transform: scaleY(0.3);
-  // /* letter-spacing: 2px; */
-  // display: inline-block;
-  // /* font-size: 19px; */
-  // transform: scaleY(9.8);
-  // /* transform-origin: 0 0; */
-  // /* margin-bottom: -50%; */
-  // font-family: Arial;
-}
-
-.java {
-  font-family: 'Arial';
-  color: #fff;
-  background-color: black;
-  font-size: 40px;
-  display: block;
-  position: relative;
-}
-
-.java:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 85px;
-  width: 20px;
-  height: 100%;
-  background-color: red;
-  -webkit-animation-delay: 2s ;
-  -webkit-animation: grow 4s;
-   -webkit-animation-delay:0.5s;
-  animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes grow {
-  from {
-    width: 0px;
-  }
-  to {
-    width: 480px;
-  }
-}
-
-@mixin reset-button {
-    overflow : visible;
-    margin : 0;
-    padding : 0;
-    border : 0;
-    background : transparent;
-    line-height : normal;
-    cursor : pointer;
-    -moz-user-select : text;
-    &:-moz-focus-inner {
-        padding : 0;
-        border : 0;
-    }
-}
-
-@keyframes stripe-slide {
-    0% { background-position: 0% 0; }
-    100% { background-position: 100% 0; }
-}
-
-//BUTTONS
-
-#btn_aboutme {
-  position: absolute;
-  left: 15px;
-  bottom: 0px;
-}
-
-#btn_back {
-  position: absolute;
-  left: 15px;
-  bottom: 0px;
-}
-
-#btn_email {
-  position: absolute;
-  right: 15px;
-  bottom: 0;
-}
-
-.btn {
-    @include reset-button;
-    display: block;
-    font-family: $highlightFont;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 16px 36px 22px;
-    background-color: $btn-background;
-    color: $btn-color;
-    border: 2px solid $border-color;
-    border-radius: 6px;
-    margin-bottom: 16px;
-    transition: all .5s ease;
-    z-index: 1000;
-
-    &--stripe {
-        overflow: hidden;
-        position: relative;
-
-        &:after {
-            content: '';
-            display: block;
-            height: $stripe-height;
-            width: 100%;
-            background-image: repeating-linear-gradient(
-                45deg,
-                $border-color,
-                $border-color 1px,
-                transparent 2px,
-                transparent 5px
-            );
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            border-top: 1px solid $border-color;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            background-size: $stripe-height $stripe-height;
-        }
-
-        &:hover a {
-          color: $btn-color-hover;
-        }
-
-        &:hover {
-            background-color: $btn-background-hover;
-            color: $btn-color-hover;
-            border-color: $border-color-hover;
-
-            &:after {
-                background-image: repeating-linear-gradient(
-                    45deg,
-                    $btn-color-hover,
-                    $btn-color-hover 2px,
-                    transparent 2px,
-                    transparent 5px
-                );
-                border-top: 1px solid $border-color-hover;
-                animation: stripe-slide 12s infinite linear forwards;
-            }
-        }
-    }
-}
 
 @media (max-width: 600px) {
 
-    header {
-      height: 85px;
-    }
 
-    nav {
-      width: 50%;
-      text-align: right;
-      a {
-        padding-right: 10px;
-        display: inline-block;
-      }
-    }
-
-    #blob {
-    width: 300px;
-    height: 300px;
-    }
-
-    #all {
-      position: fixed;
-    }
-
-    #div1 {
-      position: fixed;
-    }
 
 }
