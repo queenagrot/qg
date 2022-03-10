@@ -262,6 +262,9 @@ background: none;
 
 @media (max-width: 600px) {
 
-
+  .fgfooter {
+    opacity: .5;
+    box-shadow: inset 14px 30px 60px #c4a160, inset 0px 30px 170px #fff;
+  }
 
 }
