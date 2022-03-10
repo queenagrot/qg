@@ -37,6 +37,21 @@ body.about {
   flex-direction: column;
 }
 
+#logo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo img {
+  width: 100%;
+  height: 30%;
+  position: fixed;
+  z-index: -1;
+}
+
 //BG COLOUR SCROLL
 
 .bodynormal {
