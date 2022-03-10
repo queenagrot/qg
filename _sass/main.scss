@@ -79,6 +79,7 @@ details {
 
 a:hover {
   color: bisque;
+  box-shadow: 5px 5px 40px 10px #d9b34170;
 }
 
 summary:hover {
@@ -101,6 +102,7 @@ summary:hover {
 #info_btn:hover {
   background-color: bisque;
   cursor: pointer;
+  box-shadow: 5px 25px 30px 20px #d9b34170;
 }
 
 //STICKY HEADER HIDE ON SCROLL
