@@ -53,17 +53,6 @@ $gridMarDbl: 13%;
   margin: $gridMargin;
 }
 
-.txt-centre {
-  text-align: center;
-  margin: $gridMargin;
-  padding: $txtPadTop;
-}
-
-.txt-left {
-  margin-right: $gridMarDbl;
-  padding: $txtPadding;
-}
-
 .grid:after {
   content: "";
   display: table;
@@ -128,12 +117,6 @@ $gridMarDbl: 13%;
 
   h2 {
     text-align: center;
-  }
-
-  .txt-left, .txt-centre {
-    text-align: justify;
-    margin: $gridMargin;
-    padding: $txtPadTop;
   }
 
   section {
