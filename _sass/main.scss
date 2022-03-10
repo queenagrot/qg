@@ -73,8 +73,14 @@ h2 {
 
 details {
   position: absolute;
-  padding: 0.8em 6px .8em 6px;
+  padding: 0.8em 8px .8em 8px;
   z-index: 30;
+  transition: $flow;
+}
+
+details[open] {
+  background-color: black;
+  box-shadow: 27px 10px 20px #ff0c0024;
 }
 
 a:hover {
