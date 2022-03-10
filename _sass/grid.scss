@@ -54,16 +54,6 @@
   margin: 0 auto;
 }
 
-.grid-mar {
-  margin: $gridMargin;
-}
-
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .centre_align {
   margin-left: auto;
   margin-right: auto;
@@ -75,24 +65,6 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.vertical_align_smlright {
-  right: 0;
-}
-
-.vertical_align_holder {
-  position: relative;
-  width: 100%;
-  float: left;
-}
-
-.float_right {
-  float: right !important;
-}
-
-.float_left {
-  float: left;
 }
 
 .clear {
