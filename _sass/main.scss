@@ -211,12 +211,13 @@ background: none;
 }
 
 .fgnormal {
-  box-shadow: inset 60px 0 120px #c4a160, inset -60px 0 120px #fff;
-  opacity: .0;
+  opacity: 0;
 }
 
 .fgfooter {
   opacity: 1;
+  box-shadow: inset 60px 0 120px #c4a160, inset -60px 0 120px #fff;
+
 }
 
 // SPINNER
