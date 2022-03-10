@@ -6,4 +6,5 @@ image_sliders:
   - sliderauki
   - sliderbark
   - sliderpigcine
+  - cyhibig
 ---

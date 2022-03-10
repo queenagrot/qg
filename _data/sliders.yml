@@ -141,3 +141,17 @@
     interval: "8000"
     height: "'auto'"
     effect: "'fade'"
+
+# can you handle it big
+- selector: cyhibig
+  captions: false
+  images:
+    - src: /assets/images/cyhibig/IMG_5952.jpeg
+    - data-src: /assets/images/cyhibig/IMG_5949.jpeg
+    - data-src: /assets/images/cyhibig/IMG_5950.jpeg
+    - data-src: /assets/images/cyhibig/IMG_5948.jpeg
+    - data-src: /assets/images/cyhibig/IMG_5946.jpeg
+  settings:
+    interval: "20000"
+    height: "'auto'"
+    effect: "'fade'"
