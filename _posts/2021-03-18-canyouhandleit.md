@@ -11,12 +11,12 @@ image_sliders:
   <div class="col-1-1">
     <details style="background: radial-gradient(#4f3712, #9198e500);">
       <summary>Can You Handle It?</summary>
-      <br>Glazed Raku Lamp
+      <br>Glazed Ceramic Lamp
       <br>42 x 22 x 18 cm
       <br>E27 bulb fitting
       <br>AU socket
       <br><br>Enquire to purchase
-      <br>via <a>Email</a>/<a>Instagram</a>
+      <br>via <a href="mailto:queenagrot@gmail.com">Email</a>/<a href="https://www.instagram.com/queenagrot/" target="_blank">Instagram</a>
     </details>
     <div id="slideshow">
     {% include slider.html selector="cyhibig" %}
