@@ -94,46 +94,42 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-// //FOLIOBG COLOUR SCROLL
+//FOLIOBG COLOUR SCROLL
 
-// const foliobg = document.querySelector("#foliobg");
-// const foliofg = document.querySelector("#foliofg");
-// const footer = document.querySelector("footer");
+const foliobg = document.querySelector("#foliobg");
+const foliofg = document.querySelector("#foliofg");
+const footer = document.querySelector("footer");
 
-// const sectionOptions = {
-//   root: null,
-//   threshold: 0,
-//   rootMargin: '0% 0% -100% 0%'
-// };
+const sectionOptions = {
+  root: null,
+  threshold: 0,
+  rootMargin: '0% 0% -100% 0%'
+};
 
-// const sectionObserver = new IntersectionObserver(function(entries, sectionObserver) {
-//   // const headerEntry = entries.find(entry => entry.target.tagName === 'HEADER');
-//   const footerEntry = entries.find(entry => entry.target.tagName === 'FOOTER');
-//   if (footerEntry && footerEntry.isIntersecting) {
-//     body.classList.remove("bodynormal");
-//     body.classList.add("bodyfooter");
-//     foliobg.classList.remove("bgnormal");
-//     foliobg.classList.add("bgfooter");
-//     foliofg.classList.remove("fgnormal");
-//     foliofg.classList.add("fgfooter");
-//   // } else if(footerEntry && footerEntry.isIntersecting) {
-//   //   photo.classList.remove("fixed");
-//   //   photo.classList.add("absolute");
-//   } else {
-//     body.classList.remove("bodyfooter");
-//     body.classList.add("bodynormal");
-//     foliobg.classList.remove("bgfooter");
-//     foliobg.classList.add("bgnormal");
-//     foliofg.classList.remove("fgfooter");
-//     foliofg.classList.add("fgnormal");
-//   }
-// }, sectionOptions);
+const sectionObserver = new IntersectionObserver(function(entries, sectionObserver) {
+  // const headerEntry = entries.find(entry => entry.target.tagName === 'HEADER');
+  const footerEntry = entries.find(entry => entry.target.tagName === 'FOOTER');
+  if (footerEntry && footerEntry.isIntersecting) {
+    body.classList.remove("bodynormal");
+    body.classList.add("bodyfooter");
+    foliobg.classList.remove("bgnormal");
+    foliobg.classList.add("bgfooter");
+    foliofg.classList.remove("fgnormal");
+    foliofg.classList.add("fgfooter");
+  // } else if(footerEntry && footerEntry.isIntersecting) {
+  //   photo.classList.remove("fixed");
+  //   photo.classList.add("absolute");
+  } else {
+    body.classList.remove("bodyfooter");
+    body.classList.add("bodynormal");
+    foliobg.classList.remove("bgfooter");
+    foliobg.classList.add("bgnormal");
+    foliofg.classList.remove("fgfooter");
+    foliofg.classList.add("fgnormal");
+  }
+}, sectionOptions);
 
-// sectionObserver.observe(footer);
-
-// }
-// });
-// // end of document ready function executing about vs homepage scripts
+sectionObserver.observe(footer);
 
 
 

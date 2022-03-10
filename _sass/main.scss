@@ -158,15 +158,15 @@ background: none;
  //BG COLOUR SCROLL
 
 .bodynormal {
-  background: $backgroundColor;
+  background-color: red;
   color: $bodyColor;
 }
 
 .bodyfooter {
-  background-color: #917070;
-  color: $backgroundColor;
+  background-color: blue;
+  color: $bodyColor;
   a {
-    color: $backgroundColor;
+    color: $bodyColor;
   }
 }
 
