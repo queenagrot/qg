@@ -10,10 +10,6 @@
     <link rel="stylesheet" href="/qgrot/assets/css/resets.css">
     <link rel="stylesheet" href="/qgrot/assets/css/grid.css">
     <link rel="stylesheet" href="/qgrot/assets/css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
     <!-- Jekyll Ideal Image Slider Include -->
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
 <!-- v1.8 -->
@@ -27,12 +23,18 @@
       <li><h1>Pamela Rosel</h1></li>
       <li><h1><span></span></h1></li>
     </ul>
-    <nav>
-      <a href="http://localhost:4000" class="navfolio">Folio</a>
-      <a href="http://localhost:4000/icandesigniswear" class="navabout"><span class="mob_hide">How can I help you?</span> <span class="mob_show">Contact</span></a>
-    </nav>
+    <a id="info_btn" onclick="openinfo()"></a>
   </header>
 
+  <section id="logo">
+    <img src="/assets/images/qg_white.png" alt="Queena Grot"/>
+  </section>
+
+  <!-- <aside id="popup">
+    <a id="info_btn" onclick="closeinfo()"></a>
+    <p>Queena Grot makes one-of-a-kind lamps. It is a labour of love. It is functional art. It is the light and ceramics practice of Pamela Rosel, a bi-cultural Filipino/Australian artist, living and working outta Meanjin, Brisbane Australia. If you're in the market for a hyperpersonal lamp, what's available is on this site. For enquiries, get in touch via email or instagram.
+    </p>
+  </aside> -->
 
 
 
@@ -58,36 +60,6 @@
 <div id="foliofg" class="fgnormal"></div>
 
 
-
-  
-    <section class="section fadeup clear">
-
-<div class="col-5-8 float_left">
-  <div id="slideshow">
-  <!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.8 --><div id="sliderauki">
-  <img data-src="" data-src-2x="" src="/qgrot/assets/images/auki/auki_oilface.jpg" title="" alt="" />
-  <img data-src="/qgrot/assets/images/auki/auki_bottles.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/auki/auki_capsules.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/auki/auki_logowhite.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/auki/auki_laptop.gif" data-src-2x="" src="" title="" alt="" />
-  </div>
-  </div>
-</div>
-
-<div class="col-3-8 float_left">
-  <div class="txt-left">
-    <h2>AUKI</h2>
-    <br />
-    <p>As part of her beauty routine, Cleopatra was said to have used black seed oil, devoutly. The AUKI brand plays on this mythology and the ancient wisdom of its carefully sourced Egyptian ingredients. Accompanying online store to boot.
-      <span class="meta"> Brand Identity, Packaging, Online Store&mdash; Website: <a href="http://auki.com.au">auki.com.au</a>
-      </span>
-    </p>
-    </div>
-</div>
-
-</section>
 
   
     <section class="section fadeup">
@@ -218,36 +190,6 @@
 </section>
 
   
-    <section class="section fadeup float_left">
-
-<div class="col-3-8 float_left">
-  <div class="txt-left">
-  <h2>Bark Architects</h2>
-  <br />
-  <p>The Bark rebrand embodies their responsive work to the Noosa landscape and surrounds. This website showcases their architectural projects, separating those for private and public use. Each project tells a story, incorporating initial sketches, plot stats, blueprints and writings with the final work beautifully realised and photographed.
-    <span class="meta"> ROLE: Site Design (UI, UX), Branding&mdash; Developer: David Muirhead&mdash; Year: 2017&mdash; CMS: Wordpress&mdash; Website: <a href="https://barkdesign.com.au">barkdesign.com.au</a>
-    </span>
-  </p>
-  </div>
-</div>
-
-<div class="col-5-8 float_left">
-  <div id="slideshow">
-  <!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.8 --><div id="sliderbark">
-  <img data-src="" data-src-2x="" src="/qgrot/assets/images/bark/bark_landing.gif" title="" alt="" />
-  <img data-src="/qgrot/assets/images/bark/bark_landing.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/bark/bark_menu.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/bark/bark_redrock.gif" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/bark/bark_private.gif" data-src-2x="" src="" title="" alt="" />
-  </div>
-  </div>
-</div>
-
-</section>
-
-  
     <section class="section fadeup">
 
   <h2>Artist Statement</h2>
@@ -273,40 +215,6 @@
       </div>
       <p>Photos by the lamp owner Tess Crocker</p>
   </div>
-
-</section>
-
-  
-    <section class="section fadeup float_left">
-
-<div class="col-3-4 float_left">
-  <div id="slideshow">
-  <!-- Jekyll Ideal Image Slider Include -->
-<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
-<!-- v1.8 --><div id="sliderpigcine">
-  <img data-src="" data-src-2x="" src="/qgrot/assets/images/pigcine/pigcine_landing.jpg" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_screeningslist.gif" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_openingnight.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_susanpitt.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_fbteasers.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_bag3.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_edm.gif" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_about.gif" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_metro.jpg" data-src-2x="" src="" title="" alt="" />
-  <img data-src="/qgrot/assets/images/pigcine/pigcine_speech.jpg" data-src-2x="" src="" title="" alt="" />
-  </div>
-  </div>
-</div>
-
-<div class="col-1-4 float_left">
-  <div class="txt-left">
-    <h2>PIG CINÉ</h2>
-    <br />
-    <p>PIG CINÉ was a non-for-profit resource that listed the variety of unusual film screening events across Brisbane in one place to increase awareness and attendance at these otherwise under-publicised events. Our website listed upcoming screening events, film festivals and programs, shooting subscribers an email with a weekly roundup and highlights. In partnership with MetroArts, we also hosted free film screenings featuring the work of both local and international film makers.
-      <span class="meta"> Role: Co-Founder, Branding, Site Design (UI UX), Developer, EDM, Socials, Merch&mdash; Year: 2018-2020&mdash; CMS: Wordpress</span>
-    </p>
-    </div>
-</div>
 
 </section>
 
@@ -436,27 +344,6 @@
   <script src="/qgrot/assets/js/slider/iis-bullet-nav.js"></script>
   <script src="/qgrot/assets/js/slider/iis-captions.js"></script>
   <script>
-  var sliderauki = new IdealImageSlider.Slider({
-      selector: '#sliderauki',
-      height: 'auto',
-      interval: 10000000000,
-      effect: 'fade',
-      });
-    sliderauki.start();
-  var sliderbark = new IdealImageSlider.Slider({
-      selector: '#sliderbark',
-      height: 'auto',
-      interval: 10000000000,
-      effect: 'fade',
-      });
-    sliderbark.start();
-  var sliderpigcine = new IdealImageSlider.Slider({
-      selector: '#sliderpigcine',
-      height: 'auto',
-      interval: 10000000000,
-      effect: 'fade',
-      });
-    sliderpigcine.start();
   var seonsmall = new IdealImageSlider.Slider({
       selector: '#seonsmall',
       height: 'auto',
