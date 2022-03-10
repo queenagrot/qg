@@ -1,0 +1,28 @@
+I"^<section class="section fadeup">
+
+  <h2>Artist Statement</h2>
+
+  <div class="col-1-1" style="margin-bottom: 100px;">
+    <img src="/qg/assets/images/apoem/IMG_8766_2.jpg" alt="1" />
+  </div>
+
+  <div class="col-1-1 blackbg">
+      <div class="col-2-3">
+        <img src="/qg/assets/images/apoem/IMG_8766.jpg" alt="2" />
+      </div>
+      <div class="col-1-1">
+        <img src="/qg/assets/images/apoem/IMG_8559.JPG" alt="2" />
+      </div>
+      <div class="col-2-3">
+        <img src="/qg/assets/images/apoem/IMG_8765.jpg" alt="3" />
+      </div>
+      <div class="col-1-3">
+        <img src="/qg/assets/images/apoem/IMG_8263.JPG" alt="2" />
+        <img src="/qg/assets/images/apoem/IMG_8262.JPG" alt="2" />
+        <img src="/qg/assets/images/apoem/IMG_8264.JPG" alt="2" />
+      </div>
+      <p>Photos by the lamp owner Tess Crocker</p>
+  </div>
+
+</section>
+:ET
