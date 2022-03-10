@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
 //UNIVERSAL
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: 'Courier Prime', monospace;
+$backgroundColor: #000000;
+$bodyColor: #FFFFFF;
+// $bodyFont: 'Courier Prime', monospace;
+$bodyFont: 'Xanh Mono', monospace;
+$flow: .4s;
+
 $highlightFont: 'DM Mono', monospace;
 $displayFont: 'Arial';
 $padding: 28px;
