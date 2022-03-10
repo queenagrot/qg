@@ -24,7 +24,7 @@ image_sliders:
   </div>
 
   <div class="col-1-1" style="position: relative; z-index: -2;">
-    <img src="/qg/assets/images/cyhibig/IMG_3299.JPG" alt="goth candleabra scorpio mood jarrod vdr"/>
+    <img src="/assets/images/cyhibig/IMG_3299.JPG" alt="goth candleabra scorpio mood jarrod vdr"/>
   </div>
 
 </section>
