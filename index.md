@@ -6,5 +6,13 @@ image_sliders:
   - sliderauki
   - sliderbark
   - sliderpigcine
+  - seonsmall
+  - seonbig
+  - goth
+  - mdwsmall
   - cyhibig
+  - earthskyleft
+  - earthskyright
+  - chessbig
+  - chesssmall
 ---

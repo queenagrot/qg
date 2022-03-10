@@ -1,0 +1,29 @@
+I"º<section class="section fadeup">
+
+  <div class="col-3-8">
+    <h2>Comissioned Work</h2>
+    <div id="slideshow">
+    <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div>
+  </div>
+    </div>
+    <div id="slideshow">
+    <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div>
+  </div>
+    </div>
+  </div>
+
+  <div class="col-5-8">
+    <div id="slideshow">
+    <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div>
+  </div>
+    </div>
+  </div>
+
+</section>
+:ET

@@ -142,6 +142,57 @@
     height: "'auto'"
     effect: "'fade'"
 
+# seon small
+- selector: seonsmall
+  captions: false
+  images:
+    - src: /assets/images/seonsmall/IMG_8671.JPG
+    - data-src: /assets/images/seonsmall/IMG_8678.JPG
+  settings:
+    interval: "4000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# seon big
+- selector: seonbig
+  captions: false
+  images:
+    - src: /assets/images/qg1/IMG_8675.JPG
+    - data-src: /assets/images/qg1/IMG_8668.JPG
+  settings:
+    interval: "9000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# goth
+- selector: goth
+  captions: false
+  images:
+    - src: /assets/images/goth/IMG_5971.jpg
+    - data-src: /assets/images/goth/IMG_6541.jpg
+    - data-src: /assets/images/goth/IMG_6490.jpg
+    - data-src: /assets/images/goth/IMG_6508.jpg
+    - data-src: /assets/images/goth/IMG_6514.jpg
+    - data-src: /assets/images/goth/IMG_6519.jpg
+    - data-src: /assets/images/goth/IMG_5926.jpg
+    - data-src: /assets/images/goth/IMG_5927.jpg
+  settings:
+    interval: "20000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# mdw small
+- selector: mdwsmall
+  captions: false
+  images:
+    - src: /assets/images/mdwsmall/IMG_8527.JPG
+    - data-src: /assets/images/mdwsmall/IMG_8528.JPG
+    - data-src: /assets/images/mdwsmall/IMG_8529.JPG
+  settings:
+    interval: "5000"
+    height: "'auto'"
+    effect: "'fade'"
+
 # can you handle it big
 - selector: cyhibig
   captions: false
@@ -153,5 +204,53 @@
     - data-src: /assets/images/cyhibig/IMG_5946.jpeg
   settings:
     interval: "20000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# earthsky left
+- selector: earthskyleft
+  captions: false
+  images:
+    - src: /assets/images/earthsky/IMG_4903.JPG
+    - data-src: /assets/images/earthsky/IMG_4888.JPG
+    - data-src: /assets/images/earthsky/IMG_4848.JPG
+    - data-src: /assets/images/earthsky/IMG_4889.JPG
+  settings:
+    interval: "20000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# earthsky right
+- selector: earthskyright
+  captions: false
+  images:
+    - src: /assets/images/earthsky/IMG_4945.JPG
+    - data-src: /assets/images/earthsky/IMG_4931.JPG
+    - data-src: /assets/images/earthsky/IMG_4911.JPG
+  settings:
+    interval: "20000"
+    height: "'auto'"
+    effect: "'fade'"
+
+# chess big
+- selector: chessbig
+  captions: false
+  images:
+    - src: /assets/images/chess/IMG_8861.JPG
+    - data-src: /assets/images/chess/IMG_8859.JPG
+  settings:
+    interval: "15005"
+    height: "'auto'"
+    effect: "'fade'"
+
+# chess small
+- selector: chesssmall
+  captions: false
+  images:
+    - src: /assets/images/chess/IMG_8850.JPG
+    - data-src: /assets/images/chess/IMG_8843.JPG
+    - data-src: /assets/images/chess/IMG_8821.JPG
+  settings:
+    interval: "5000"
     height: "'auto'"
     effect: "'fade'"
