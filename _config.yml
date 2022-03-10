@@ -1,7 +1,7 @@
 url: "https://queenagrot.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/qg" # the subpath of your site, e.g. /blog
-title: "Pamela Rosel" # the name of your site, e.g. ACME Corp.
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Queena Grot" # the name of your site, e.g. ACME Corp.
 sass_dir: _sass
-description: Pamela Rosel is a freelance designer based in Brisbane, Meanjin, interested in the intersection of art and design, creating meaningful experiences across branding and digital.
+description: Queena Grot makes one-of-a-kind lamps. It is the light and ceramics practice of Filipino Australian artist Pamela Rosel. She lives and works in Meanjin, Australia.
 github_username: queenagrot
 email: queenagrot@gmail.com
