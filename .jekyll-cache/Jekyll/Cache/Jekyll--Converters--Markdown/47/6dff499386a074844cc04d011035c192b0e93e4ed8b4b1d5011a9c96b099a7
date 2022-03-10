@@ -1,0 +1,33 @@
+I"a<section class="section fadeup float_left">
+
+<div class="col-3-4 float_left">
+  <div id="slideshow">
+  <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div id="sliderpigcine">
+  <img data-src="" data-src-2x="" src="/qgrot/assets/images/pigcine/pigcine_screeningslist.gif" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_landing.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_openingnight.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_susanpitt.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_fbteasers.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_bag3.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_edm.gif" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_about.gif" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_metro.jpg" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/qgrot/assets/images/pigcine/pigcine_speech.jpg" data-src-2x="" src="" title="" alt="" />
+  </div>
+  </div>
+</div>
+
+<div class="col-1-4 float_left">
+  <div class="txt-left">
+    <h2>PIG CINÉ</h2>
+    <br />
+    <p>PIG CINÉ was a non-for-profit resource that listed the variety of unusual film screening events across Brisbane in one place to increase awareness and attendance at these otherwise under-publicised events. Our website listed upcoming screening events, film festivals and programs, shooting subscribers an email with a weekly roundup and highlights. In partnership with MetroArts, we also hosted free film screenings featuring the work of both local and international film makers.
+      <span class="meta"> Role: Co-Founder, Branding, Site Design (UI UX), Developer, EDM, Socials, Merch&mdash; Year: 2018-2020&mdash; CMS: Wordpress</span>
+    </p>
+    </div>
+</div>
+
+</section>
+:ET
