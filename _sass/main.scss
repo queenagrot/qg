@@ -52,6 +52,24 @@ body.about {
   z-index: -1;
 }
 
+//INFO BTN
+
+#info_btn {
+  background-color: $bodyColor;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 20px;
+  z-index: 50;
+  transition: $flow;
+}
+
+#info_btn:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
 //BG COLOUR SCROLL
 
 .bodynormal {
