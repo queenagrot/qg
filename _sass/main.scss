@@ -217,12 +217,12 @@ background: none;
 #spinner {
   font-family: arial;
   position: absolute;
-  top: 30%;
+  top: 60%;
   left: 50%;
   ul {
     margin: 0;
     list-style: none;
-    font-size: 4vw;
+    font-size: 18px;
     transform-style: preserve-3d;
     animation: three-dimensions-circle 30s linear infinite;
   }
