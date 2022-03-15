@@ -16,7 +16,7 @@ image_sliders:
       <br>E27 bulb fitting
       <br>AU socket
       <br><br>Enquire to purchase
-      <br>via <a href="mailto:queenagrot@gmail.com">Email</a>/<a href="https://www.instagram.com/queenagrot/" target="_blank">Instagram</a>
+      <br>via <a href="mailto:queenagrot@gmail.com">Email</a>/<a href="https://www.instagram.com/queena_grot/" target="_blank">Instagram</a>
     </details>
     <div id="slideshow">
     {% include slider.html selector="cyhibig" %}
