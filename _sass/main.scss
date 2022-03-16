@@ -85,7 +85,7 @@ aside h1 {
 details {
   position: absolute;
   padding: 0.8em 8px .8em 8px;
-  z-index: 30;
+  z-index: 60;
   transition: $flow;
 }
 
@@ -144,7 +144,7 @@ header {
   top: 0;
   transition: top 0.4s ease-in-out;
   width: 100%;
-  z-index: 40;
+  z-index: 50;
 }
 
 body.about header {

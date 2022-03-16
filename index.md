@@ -10,6 +10,5 @@ image_sliders:
   - cyhibig
   - earthskyleft
   - earthskyright
-  - chessbig
   - chesssmall
 ---
