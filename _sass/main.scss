@@ -49,6 +49,10 @@ aside {
   justify-content: flex-end;
 }
 
+aside h1, aside p {
+  padding: 0 2em;
+}
+
 .blackbg {
   background-color: #000000;
 }
@@ -57,6 +61,11 @@ aside {
 
 h2 {
   display: none;
+}
+
+aside h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vw;
 }
 
 [class*='col-'] p {
