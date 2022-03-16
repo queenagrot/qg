@@ -9,7 +9,7 @@ image_sliders:
   <h2>{{ page.title }}</h2>
 
   <div class="col-1-1">
-    <details style="background: radial-gradient(#4f3712, #9198e500);">
+    <details>
       <summary>Can You Handle It?</summary>
       <br>Glazed Ceramic Lamp
       <br>42 x 22 x 18 cm
