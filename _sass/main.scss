@@ -90,6 +90,9 @@ details[open] {
     text-decoration: underline;
     text-decoration-color: red;
   }
+  summary {
+    font-family: $bodyFont;
+  }
 }
 
 details[open] a:hover {
