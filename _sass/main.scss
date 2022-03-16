@@ -1,5 +1,4 @@
-// @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 
 //UNIVERSAL
 $backgroundColor: #000000;
@@ -82,8 +81,19 @@ details {
 }
 
 details[open] {
-  background-color: black;
+  background-color: $bodyColor;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
   box-shadow: 27px 10px 20px #ff0c0024;
+  a {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+}
+
+details[open] a:hover {
+  color: blue;
 }
 
 a:hover {
