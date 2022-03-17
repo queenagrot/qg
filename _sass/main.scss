@@ -9,6 +9,7 @@ $flow: .4s;
 $highlightFont: 'DM Mono', monospace;
 $displayFont: 'Arial';
 $fadeTransition: opacity ease-in-out 8s;
+$highlightColor: crimson;
 
 body {
   font-family: $bodyFont;
@@ -43,7 +44,7 @@ aside {
   display: none;
   width: 100%;
   height: 100vh;
-  background-color: red;
+  background: radial-gradient(#e66465, #bf977a99);
   z-index: 70;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -91,14 +92,14 @@ details {
 
 details[open] {
   background-color: $bodyColor;
-  color: red;
+  color: $highlightColor;
   font-family: 'Times New Roman', Times, serif;
   box-shadow: 27px 10px 20px #ff0c0024;
   font-size: 20px;
   a {
-    color: red;
+    color: $highlightColor;
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: $highlightColor;
   }
   summary {
     font-family: $bodyFont;
@@ -196,7 +197,7 @@ background: none;
  //BG COLOUR SCROLL
 
 .bodynormal {
-  background-color: red;
+  background-color: $highlightColor;
   color: $bodyColor;
 }
 
