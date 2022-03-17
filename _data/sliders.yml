@@ -93,6 +93,7 @@
   captions: false
   images:
     - src: /assets/images/chess/IMG_8861.JPG
+    - data-src: /assets/images/chess/IMG_8873.jpg
   settings:
     interval: "15005"
     height: "'auto'"
