@@ -49,6 +49,7 @@ aside {
   z-index: 70;
   flex-wrap: wrap;
   justify-content: flex-end;
+  -webkit-justify-content: flex-end;
 }
 
 aside h1, aside p {
@@ -173,7 +174,8 @@ summary:hover {
 
 header {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
   position: fixed;
   top: 0;
   transition: top 0.4s ease-in-out;

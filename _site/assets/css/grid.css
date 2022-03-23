@@ -8,7 +8,7 @@ body.folio { transition: background-color ease-in-out .8s; background: #000000; 
 
 #logo img { width: 100%; height: 30%; position: fixed; z-index: -1; }
 
-aside { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100vh; background: radial-gradient(#e66465, #bf977a99); z-index: 70; flex-wrap: wrap; justify-content: flex-end; }
+aside { position: fixed; top: 0; left: 0; display: none; width: 100%; height: 100vh; background: radial-gradient(#e66465, #bf977a99); z-index: 70; flex-wrap: wrap; justify-content: flex-end; -webkit-justify-content: flex-end; }
 
 aside h1, aside p { padding: 0 10px; }
 
@@ -46,7 +46,7 @@ summary:hover { cursor: pointer; }
 
 #info_btn:hover { background-color: bisque; cursor: pointer; box-shadow: 5px 25px 30px 20px #534d2a8a; }
 
-header { display: flex; justify-content: end; position: fixed; top: 0; transition: top 0.4s ease-in-out; width: 100%; z-index: 50; }
+header { display: flex; justify-content: flex-end; -webkit-justify-content: flex-end; position: fixed; top: 0; transition: top 0.4s ease-in-out; width: 100%; z-index: 50; }
 
 footer { height: 100vh; width: 100%; display: flex; float: left; justify-content: center; align-items: end; }
 
