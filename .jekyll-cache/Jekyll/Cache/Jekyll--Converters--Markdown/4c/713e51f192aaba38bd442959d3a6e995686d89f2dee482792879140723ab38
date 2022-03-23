@@ -1,0 +1,28 @@
+I"_<section class="section fadeup">
+
+  <h2>Artist Statement</h2>
+
+  <div class="col-1-1" style="margin-bottom: 100px;">
+    <img src="/assets/images/apoem/IMG_8766_2.jpg" alt="1" />
+  </div>
+
+  <div class="col-1-1 blackbg">
+      <div class="col-2-3">
+        <img src="/assets/images/apoem/IMG_8766.jpg" alt="think with the hands then the gut then the brain, structural integrity is important as much as the mistakes" />
+      </div>
+      <div class="col-1-1">
+        <img src="/assets/images/apoem/IMG_8559.JPG" alt="i want these lamps to last a very long time like a life long friend (for you) that is not perfect and yet is close enough" />
+      </div>
+      <div class="col-2-3">
+        <img src="/assets/images/apoem/IMG_8765.jpg" alt="sungod lamp in 3d blitz" />
+      </div>
+      <div class="col-1-3">
+        <img class="lift" src="/assets/images/apoem/IMG_8263.JPG" alt="far" />
+        <img src="/assets/images/apoem/IMG_8262.jpg" alt="close" />
+        <img src="/assets/images/apoem/IMG_8264.JPG" alt="closer" />
+        <p>Photos by Tess Crocker (proud lamp owner)</p>
+      </div>
+  </div>
+
+</section>
+:ET

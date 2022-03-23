@@ -1,0 +1,51 @@
+I"	<section class="section fadeup clear">
+
+  <h2>Melbourne Design Week 2022 Ode to Heidelberg New Assemblage Oigall Projects NGV</h2>
+
+  <div class="col-1-1">
+    <img src="/assets/images/mdw/mdw_pinklady.jpg" alt="Queena Grot as part of Melbourne Design Week 2022 Showcase by New Assemblage x Oigall Projects 10th - 27th of March. Go See!" />
+  </div>
+
+  <div class="col-5-8">
+    <details>
+      <summary>Ode to Heidelberg</summary>
+      <br />Glazed Ceramic Lamp, Flower Holder
+      <br />40 x 29 x 23 cm
+      <br />E27 bulb 
+      <br />AU socket
+      <br /><br />Purchase/Visit at
+      <br />SHOWCASE by New Assemblage
+      <br />MELBOURNE DESIGN WEEK 2022
+      <br />Oigall Projects - March 10th - 27th
+    </details>
+    <div id="slideshow">
+    <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 --><div id="mdwsmall">
+  <img data-src="" data-src-2x="" src="/assets/images/mdwsmall/IMG_8527.JPG" title="" alt="" />
+  <img data-src="/assets/images/mdwsmall/IMG_8528.JPG" data-src-2x="" src="" title="" alt="" />
+  <img data-src="/assets/images/mdwsmall/IMG_8529.JPG" data-src-2x="" src="" title="" alt="" />
+  </div>
+    </div> 
+  </div>
+
+  <div class="col-3-8">
+    <a href="https://newassemblage.com/" target="_blank">
+      <video width="100%" autoplay="" muted="" loop="">
+        <source src="/assets/images/mdw/Showcase_New-Assemblage_Initial-Post.mp4" type="video/mp4" />
+      </video>
+    </a>
+    <p>122 Gertrude Street, Fitzroy VIC <a href="https://www.instagram.com/new.assemblage/" target="_blank">@new.assemblage</a></p>
+    <img src="/assets/images/mdw/IMG_4302.JPG" alt="Ode to Heidelberg Melbourne Design Week 2022 Queena Grot New Assemblage Oigall Projects NGV" />
+  </div>
+
+  <div class="col-1-1">
+    <img src="/assets/images/mdw/NEWASSEMBLAGE_225637.jpg" alt="Ode to Heidelberg Melbourne Design Week 2022 Queena Grot New Assemblage Oigall Projects NGV Melbourne" />
+    <p>
+      Photo by <a href="https://www.instagram.com/annikakafcaloudis/" target="_blank">Annika Kafcaloudis</a>
+      <br />Styling by <a href="https://www.instagram.com/ella_saddington/" target="_blank">Ella Saddington</a> &amp; <a href="https://www.instagram.com/@you1anna/" target="_blank">Henry King</a>
+    </p>
+  </div>
+
+</section>
+:ET

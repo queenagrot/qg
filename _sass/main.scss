@@ -9,7 +9,8 @@ $flow: .4s;
 $highlightFont: 'DM Mono', monospace;
 $displayFont: 'Arial';
 $fadeTransition: opacity ease-in-out 8s;
-$highlightColor: crimson;
+$highlightColor: black;
+$bodyBorder: 1px solid black;
 
 body {
   font-family: $bodyFont;
@@ -61,7 +62,20 @@ aside h1, aside p {
 //TYPOGRAPHY
 
 h2 {
-  display: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 36px;
+  background-color: #f4f0f0;
+  color: black;
+  display: flex;
+  border-bottom: $bodyBorder;
+  border-top: $bodyBorder;
+  margin-top: 200px;
+  float: left;
+}
+
+.hide {
+  visibility: hidden;
 }
 
 aside h1 {
@@ -70,9 +84,9 @@ aside h1 {
 }
 
 [class*='col-'] p {
-  margin: .8em 0 2.8em 2px;
+  margin: .8em 0 2.8em 10px;
   z-index: 60;
-  position: relative;
+  float: left;
 }
 
 [class*='col-'] a {
@@ -84,31 +98,48 @@ aside h1 {
 }
 
 details {
-  position: absolute;
   padding: 0.8em 8px .8em 8px;
   z-index: 60;
+  background: $bodyColor;
+  color: $backgroundColor;
   transition: $flow;
+  border-top: $bodyBorder;
+  border-bottom: $bodyBorder;
+}
+
+details > summary {
+  list-style-type: '⤻ '; 
+}
+
+// details > summary:hover {
+//   text-decoration: underline;
+// }
+
+details[open] > summary {
+  list-style-type: '⥀ '; 
 }
 
 details[open] {
   background-color: $bodyColor;
-  color: $highlightColor;
   font-family: 'Times New Roman', Times, serif;
-  box-shadow: 27px 10px 20px #ff0c0024;
-  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: .3px;
   a {
     color: $highlightColor;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: $highlightColor;
+    border: 1px solid $highlightColor;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 30px;
   }
   summary {
     font-family: $bodyFont;
-    font-size: 14px;
   }
 }
 
 details[open] a:hover {
-  color: blue;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -155,8 +186,8 @@ footer {
   width: 100%;
   display: flex;
   float: left;
-  text-align: center;
   justify-content: center;
+  align-items: end;
 }
 
 body.about header {
@@ -282,7 +313,7 @@ background: none;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
 
   .fgfooter {
     opacity: .5;

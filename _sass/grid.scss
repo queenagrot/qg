@@ -1,12 +1,16 @@
 @import "main.scss";
 
+section {
+  clear: both;
+}
+
 [class*='col-'] {
   float: left;
 }
 
 [class*='col-'] img{
   width: 100%;
-  margin: -5px auto;
+  float: left;
 }
 
 [class*='col-']:last-of-type {
@@ -75,7 +79,9 @@
   display: none;
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 400px) {
 
   .mob_hide {
     display: none;
