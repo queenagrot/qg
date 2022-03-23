@@ -48,7 +48,7 @@ summary:hover { cursor: pointer; }
 
 header { display: flex; justify-content: flex-end; -webkit-justify-content: flex-end; position: fixed; top: 0; transition: top 0.4s ease-in-out; width: 100%; z-index: 50; }
 
-footer { height: 100vh; width: 100%; display: flex; float: left; justify-content: center; align-items: end; }
+footer { height: 100vh; width: 100%; display: flex; float: left; justify-content: flex-end; -webkit-justify-content: flex-end; }
 
 body.about header { background: none; }
 

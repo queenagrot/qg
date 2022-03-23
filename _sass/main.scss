@@ -188,8 +188,8 @@ footer {
   width: 100%;
   display: flex;
   float: left;
-  justify-content: center;
-  align-items: end;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
 }
 
 body.about header {
