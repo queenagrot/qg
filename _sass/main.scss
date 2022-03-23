@@ -32,8 +32,8 @@ body.folio {
 }
 
 #logo img {
-  width: 100%;
-  height: 30%;
+  width: 99%;
+  height: 300px;
   position: fixed;
   z-index: -1;
 }
@@ -73,6 +73,7 @@ h2 {
   border-top: $bodyBorder;
   margin-top: 200px;
   float: left;
+  letter-spacing: -2px;
 }
 
 .hide {
@@ -98,6 +99,10 @@ aside h1 {
   transition: $flow;
 }
 
+.iis-next-nav::after {
+  content: "Read this: ";
+}
+
 details {
   padding: 0.8em 8px .8em 8px;
   z-index: 60;
@@ -109,7 +114,8 @@ details {
 }
 
 details > summary {
-  list-style-type: '⤻ '; 
+  list-style-type: '⤻ ';
+  letter-spacing: -.02em;
 }
 
 // details > summary:hover {
@@ -188,8 +194,7 @@ footer {
   width: 100%;
   display: flex;
   float: left;
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
+  align-items: flex-end;
 }
 
 body.about header {
